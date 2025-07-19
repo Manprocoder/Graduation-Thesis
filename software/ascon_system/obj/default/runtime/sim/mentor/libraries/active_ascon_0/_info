@@ -1,0 +1,1150 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ASCON_SYSTEM/software/ascon_system/obj/default/runtime/sim/mentor
+vactive_ascon
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1752315455
+!i10b 1
+!s100 7]`jcYOzGZ6O77gM>f?NR3
+I7FO`L@3Tge]ZiLQAML9Pb2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 active_ascon_sv_unit
+S1
+R0
+Z3 w1752217294
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/active_ascon.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/active_ascon.sv
+L0 11
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1752315455.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/active_ascon.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/active_ascon.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+Z5 o-sv -L altera_common_sv_packages -work active_ascon_0
+Z6 tCvgOpt 0
+Xascon_cfg
+R1
+Z7 !s110 1752315448
+!i10b 1
+!s100 LXP0@YCB6j;<OL0b4k5F51
+I1KV<<`S]hzhIQ07]1_3n92
+V1KV<<`S]hzhIQ07]1_3n92
+S1
+R0
+R3
+Z8 8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/config.sv
+Z9 FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/config.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z10 !s108 1752315448.000000
+Z11 !s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/config.sv|
+Z12 !s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/config.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vascon_core
+R1
+Z13 DXx4 work 9 ascon_cfg 0 22 1KV<<`S]hzhIQ07]1_3n92
+R7
+!i10b 1
+!s100 DMX=7DVm0kmE7:4K`Z=3L3
+ICNhM16=lg2jQ`g4LgVgzO0
+R2
+!s105 ascon_core_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_core.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_core.sv
+L0 14
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_core.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_core.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vascon_top
+R1
+Z14 !s110 1752315454
+!i10b 1
+!s100 Z`DY;zSVl]Bb4I4@NRNN13
+Il<1CPNSCIc2;cPIhcbSfH0
+R2
+!s105 ascon_top_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top.sv
+L0 5
+R4
+r1
+!s85 0
+31
+Z15 !s108 1752315454.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vascon_top3
+R1
+R14
+!i10b 1
+!s100 UFX?SRC3D5@=C;S>1Nh8X3
+IBn6EijjXaX6[Q:OA2Q?Mz2
+R2
+!s105 ascon_top3_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top3.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top3.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top3.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top3.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vascon_top4
+R1
+R14
+!i10b 1
+!s100 E<D;_WP?@ElDnkUIi<Y6Z0
+IC6;IF634ajI6OBXRbJbjk1
+R2
+!s105 ascon_top4_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top4.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top4.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top4.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top4.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vbdi_fifo
+Z16 !s110 1752315451
+!i10b 1
+!s100 eB6kn:WIdjRQ7^AQ3SL;H3
+Ia5[[RPO<SJOgm6;z=ZIZO3
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/bdi_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/bdi_fifo.v
+Z17 L0 39
+R4
+r1
+!s85 0
+31
+Z18 !s108 1752315451.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/bdi_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/bdi_fifo.v|-work|active_ascon_0|
+!i113 1
+Z19 o-work active_ascon_0
+R6
+vckn_ad_fifo
+R16
+!i10b 1
+!s100 ;aUkXHF^2g>[X;bK1I36V2
+I]4BKA2[DCdEHCFPVV0lP20
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ckn_ad_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ckn_ad_fifo.v
+R17
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ckn_ad_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ckn_ad_fifo.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vclk_divider
+R1
+R16
+!i10b 1
+!s100 DJ>em6jm_H<[fMF^B@3U;0
+I7<o]HA;a[CiYY:S3VB2G03
+R2
+!s105 clk_divider_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/clk_divider.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/clk_divider.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/clk_divider.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/clk_divider.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vcompare
+R1
+R7
+!i10b 1
+!s100 bL9N6a>[G>YEX>_5h2^n:3
+IEjE>`W[7d5R`n;C:MI6TY2
+R2
+!s105 compare_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/compare.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/compare.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/compare.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/compare.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vcontrol_register_file
+R1
+Z20 DXx4 work 7 dma_cfg 0 22 eNha7dB]ilz9^i=mU[g2z3
+R16
+!i10b 1
+!s100 X@GJWFX49F1]NnX89a:1>1
+IfgGmk?^;o31bNkG4kPVj63
+R2
+!s105 control_register_file_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_register_file.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_register_file.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_register_file.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_register_file.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vcontrol_unit
+R1
+R16
+!i10b 1
+!s100 :>z395:V:c`]:oAE[XkS13
+I1SmTBncz4D6_6@Z79I@WJ2
+R2
+!s105 control_unit_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_unit.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_unit.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_unit.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_unit.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vcounter
+R1
+R13
+R7
+!i10b 1
+!s100 >6=XFdeg]:@_]8GAimX[91
+ICFJbOBHl;WcbY8P;67AUD1
+R2
+!s105 counter_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/counter.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/counter.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/counter.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/counter.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+Xdma_cfg
+R1
+R7
+!i10b 1
+!s100 a4MhnkJD]aWAXoMZaaNHV3
+IeNha7dB]ilz9^i=mU[g2z3
+VeNha7dB]ilz9^i=mU[g2z3
+S1
+R0
+R3
+R8
+R9
+L0 69
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R5
+R6
+vDMA_Core
+R1
+R16
+!i10b 1
+!s100 89ONI8ZiZGm35eKj@lY:d3
+IF@fbSO;eN3X9_GUMHFd7W1
+R2
+!s105 DMA_Core_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/DMA_Core.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/DMA_Core.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/DMA_Core.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/DMA_Core.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+n@d@m@a_@core
+vdma_to_sub
+R1
+Z21 !s110 1752315452
+!i10b 1
+!s100 ET9g5LiV_z1jg>3o?IE:P3
+I^JC[3c<YDgg]9MZ?aPLW<2
+R2
+!s105 dma_to_sub_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dma_to_sub.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dma_to_sub.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z22 !s108 1752315452.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dma_to_sub.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dma_to_sub.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vdynamic_config
+R1
+R21
+!i10b 1
+!s100 7IHIifL[lKhgW[66[<D`e3
+IJP7<UlCMMWf<CT8^JXz:[0
+R2
+!s105 dynamic_config_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dynamic_config.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dynamic_config.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dynamic_config.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dynamic_config.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vflag
+R1
+R13
+Z23 !s110 1752315449
+!i10b 1
+!s100 ig:Y1FWYdGQ8IUjToT8z_2
+IDVE_Y6LAG6?Dd?aHgbf:T2
+R2
+!s105 flag_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/flag.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/flag.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z24 !s108 1752315449.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/flag.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/flag.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vformat_data
+R1
+R13
+R20
+R21
+!i10b 1
+!s100 nnYILOH:jOUYGNYW0LFZU3
+IK?TOY[]g7H<z8G>U<4eJT0
+R2
+!s105 format_data_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/format_data.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/format_data.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/format_data.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/format_data.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vfsm_control
+R1
+R13
+R23
+!i10b 1
+!s100 B;NQ1k:`[S]X;;Bl2`3WF1
+IJW@Xc[kD:De6DA7f5>Vm22
+R2
+!s105 fsm_control_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/fsm_control.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/fsm_control.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/fsm_control.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/fsm_control.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+Xfunc
+R1
+R23
+!i10b 1
+!s100 Zz]]:9aMBG77N3hnlWiKE0
+ITPF?F6BgWhn]8o<;d^g;61
+VTPF?F6BgWhn]8o<;d^g;61
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/function.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/function.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/function.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/function.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vget_ad_text
+R1
+R13
+R23
+!i10b 1
+!s100 8z_5h;7e>OWbRcKJ>c0:F2
+I<HjEQM=6[_iP>BJICW>YB2
+R2
+!s105 get_ad_text_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_ad_text.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_ad_text.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_ad_text.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_ad_text.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vget_config
+R1
+R13
+Z25 DXx4 work 4 func 0 22 TPF?F6BgWhn]8o<;d^g;61
+R23
+!i10b 1
+!s100 J@BjR2ROzf7eEz43?[T:Q3
+INlcS?dn6^UFamjBYEmZEP1
+R2
+!s105 get_config_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_config.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_config.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_config.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_config.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vget_data
+R1
+R13
+R23
+!i10b 1
+!s100 KVFBU3l<E[>b;9meT6]zL3
+IdbmB4<ie:eNAhzTgz_QoB3
+R2
+!s105 get_data_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_data.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_data.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_data.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_data.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vget_key_nonce
+R1
+R13
+R23
+!i10b 1
+!s100 kT;:c0WXWXzZo^LHgnQ[f1
+IY?VYa=0b;z`kk:^?a;1L;3
+R2
+!s105 get_key_nonce_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_key_nonce.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_key_nonce.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_key_nonce.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_key_nonce.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vget_tag
+R1
+R13
+Z26 !s110 1752315450
+!i10b 1
+!s100 O<;1X25VWoMg@Iak60;`51
+I]fC5=;1iPlG_Y1DB_n>]i0
+R2
+!s105 get_tag_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_tag.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_tag.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z27 !s108 1752315450.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_tag.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_tag.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vhandle_data
+R1
+R25
+R13
+R26
+!i10b 1
+!s100 <in[N=LIJdCe=RD;E5>gM2
+IRQedPOGT>0fV4PlBniLjb3
+R2
+!s105 handle_data_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/handle_data.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/handle_data.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/handle_data.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/handle_data.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vhost_register
+R1
+R21
+!i10b 1
+!s100 Mac0U0Fi3XV`O:BjB9f>H2
+IA[KFKe^S=]i>>]LAHG[7n2
+R2
+!s105 host_register_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/host_register.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/host_register.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/host_register.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/host_register.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vinstance_fifo
+R14
+!i10b 1
+!s100 <O>@BzgBh[F?eCfLF6mYd2
+IDWGSLhUIYiU743VfSTF;o2
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/instance_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/instance_fifo.v
+R17
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/instance_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/instance_fifo.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vkey_fifo
+R21
+!i10b 1
+!s100 _CJSaI=WB8WgNdnGSJz6E3
+I^<GY45>aE^eA<Q76K_lJ>3
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/key_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/key_fifo.v
+R17
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/key_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/key_fifo.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vpermutation
+R1
+R26
+!i10b 1
+!s100 Jg?h@1JV@CiADV3eH@a5O0
+ISVX^>CRU[0AG:b50BN`SC2
+R2
+!s105 permutation_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/permutation.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/permutation.sv
+L0 6
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/permutation.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/permutation.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vpll_clk
+R21
+!i10b 1
+!s100 34aOfQWJ?@:gESzPcl`AR2
+ICFZaYzWFT5lY`@k`?YGPn1
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk.v
+L0 8
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vpll_clk_0002
+R16
+!i10b 1
+!s100 eH`:T3zI0137a`JB3RcWT0
+IRojThFkLcZ7VO^hDU9;<83
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v
+L0 2
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vpulse_synchronizer
+R1
+R21
+!i10b 1
+!s100 jQM@c:=]d3NcL=JWe@6[E3
+I]jN3VkK<E=1ibcFAWBiYJ1
+R2
+!s105 pulse_synchronizer_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pulse_synchronizer.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pulse_synchronizer.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pulse_synchronizer.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pulse_synchronizer.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vrd_request
+R1
+Z28 !s110 1752315453
+!i10b 1
+!s100 m0G0zL_4MlY^kBnGX[Ro<2
+IPCi<1;5o06Y1QzVePa^BH2
+R2
+!s105 rd_request_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rd_request.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rd_request.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z29 !s108 1752315453.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rd_request.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rd_request.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vres_req_fifo
+R28
+!i10b 1
+!s100 NPoXf`O?KUIaNZe7nHU]73
+IQWb`EbDhhERKBJTDYa7Bh3
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/res_req_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/res_req_fifo.v
+R17
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/res_req_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/res_req_fifo.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vRiSiEdgeDetector
+R1
+R7
+!i10b 1
+!s100 9<ISFgE=j?92FlzZ<9IhX1
+IfdSSC=izeBL5BLM<NBBTL2
+R2
+!s105 RiSiEdgeDetector_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/RiSiEdgeDetector.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/RiSiEdgeDetector.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/RiSiEdgeDetector.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/RiSiEdgeDetector.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+n@ri@si@edge@detector
+vrstn_synchronizer
+R1
+R28
+!i10b 1
+!s100 FA^W92PDPX0R=zm?UUz0F1
+ILJTVJUVTX9z@ZkiID<Nok2
+R2
+!s105 rstn_synchronizer_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rstn_synchronizer.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rstn_synchronizer.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rstn_synchronizer.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rstn_synchronizer.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vsc_fifo
+R1
+R26
+!i10b 1
+!s100 2f7[l;]?16Q7gAVl5jYTV0
+I2nlX7ff4V2o:1]MHHYIbD1
+R2
+!s105 sc_fifo_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sc_fifo.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sc_fifo.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sc_fifo.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sc_fifo.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vstore_ckn_ad
+R1
+R28
+!i10b 1
+!s100 S3?I]ieE^CS8HzVL[8k1=3
+I761ffjdf^fUFKmH:cY0h41
+R2
+!s105 store_ckn_ad_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_ckn_ad.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_ckn_ad.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_ckn_ad.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_ckn_ad.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vstore_data
+R1
+R13
+R26
+!i10b 1
+!s100 7L;73G0fMjLnS:z:P[;^B0
+I@zLdM^1NKf5XdY42iRK0M3
+R2
+!s105 store_data_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_data.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_data.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_data.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_data.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vsub_to_dma
+R1
+R20
+R13
+R28
+!i10b 1
+!s100 EUgbSS@z9Cn2DAG@SERzY2
+IMSII7=cOT>cUQcoQ__Lz`2
+R2
+!s105 sub_to_dma_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sub_to_dma.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sub_to_dma.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sub_to_dma.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sub_to_dma.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vtag_fifo
+R28
+!i10b 1
+!s100 ]K]4;=<<Lb;QKIPjYkL223
+IaDF0JomB?ZOn37Xm1dWXm0
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/tag_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/tag_fifo.v
+R17
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/tag_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/tag_fifo.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vtext_fifo
+R28
+!i10b 1
+!s100 :Q?J`aogT87DZZQIJYIX30
+I4P2dfU0A5cmGL4MflP;RS3
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/text_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/text_fifo.v
+R17
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/text_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/text_fifo.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vupdate_state
+R1
+R13
+R26
+!i10b 1
+!s100 O>TDZn0ci2oKDPL54G2;^1
+IESkkkFo>H^T4`bLhAU]<60
+R2
+!s105 update_state_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/update_state.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/update_state.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/update_state.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/update_state.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vwr_handle
+R1
+R14
+!i10b 1
+!s100 ?083dVVO@djjEW1Va6EG@0
+IIfk6Glg2i[BljSBj2l:XU1
+R2
+!s105 wr_handle_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_handle.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_handle.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_handle.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_handle.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6
+vwr_info_fifo
+R14
+!i10b 1
+!s100 CY<l=HE;jb=fRJ6bFZQkO0
+IL9WZLLnLi;XD8@3;SV0dm1
+R2
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_info_fifo.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_info_fifo.v
+R17
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_info_fifo.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_info_fifo.v|-work|active_ascon_0|
+!i113 1
+R19
+R6
+vwr_request
+R1
+R14
+!i10b 1
+!s100 PNInmPQk:C7WN6JT`Nk8d3
+IONPZ>i0?TA?SJoNB^<U8_2
+R2
+!s105 wr_request_sv_unit
+S1
+R0
+R3
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_request.sv
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_request.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_request.sv|
+!s90 -reportprogress|300|-sv|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_request.sv|-L|altera_common_sv_packages|-work|active_ascon_0|
+!i113 1
+R5
+R6

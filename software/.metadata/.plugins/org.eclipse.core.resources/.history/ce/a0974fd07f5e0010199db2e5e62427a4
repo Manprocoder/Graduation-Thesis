@@ -1,0 +1,346 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+#include "system.h"
+#define BUFFER_SIZE 2048
+#define TAG_WORDS 4
+
+//
+//INIT_MEM1 function
+//there are two unmatches tags
+//
+int init_mem1(int outgap, int des_addr){
+	volatile int* mem_ptr = (int *)ONCHIP_MEMORY2_1_BASE;
+	int k = 0; //mem index
+	int n = 0; //frames in total
+	int word_numbers = 0;
+	//ascon_128a, 64 bytes AD, 64 bytes TEXT, encrypt
+	//CONFIG:32'b00101000_01000000_01000000_00001000
+	//KEY: 128'h1111AEFD_22228888_33335555_44446666
+	//NONCE: 128'h00000000_00000000_00000000_0B
+	//AD: 1234ABCD_56782323_12345678_87654321_01234567_76543210_ABCDEF11_11EFCDBA
+	//0605AB22_54542323_42425678_87654321_01234567_76543210_ABCDEF11_10256418
+	//TEXT: 05050505_24242424_68686868_97974545_9D9D9D9D_48484848_33667788_22222223
+	//0605AB22_54542323_42425678_87654321_37373737_76545588_45454545_99998888
+	int enc_frame0[] = {des_addr, outgap, 7, 0x28404008, 0x1111AEFD, 0x22228888, 0x33335555, 0x44446666,
+					0, 0, 0, 12,
+					0x1234ABCD, 0x56782323, 0x12345678, 0x87654321, 0x01234567, 0x76543210, 0xABCDEF11,
+					0x11EFCDBA, 0x0605AB22, 0x54542323, 0x42425678, 0x87654321, 0x01234567, 0x76543210,
+					0xABCDEF11, 0x10256418,
+					0x05050505, 0x24242424, 0x68686868, 0x97974545, 0x9D9D9D9D, 0x48484848, 0x33667788,
+					0x22222223, 0x0605AB22, 0x54542323, 0x42425678, 0x87654321, 0x37373737, 0x76545588,
+					0x45454545, 0x99998888};
+	//ascon_128a, 18 bytes AD, 50 bytes TEXT, decrypt
+		//CONFIG:32'b00011110_00010010_00110010_00001010
+		//KEY: 128'h22224444_1111AAAA_44445555_AABBEEFF
+		//NONCE: 128'h00000000_00000000_00000000_02
+		//AD: 1AB3C589_E3E64EC6_1AB3C589_E3E64EC6_1FCC0000
+		//CT: b6320386_e90456c1_60ae4bc5_58df8cf4_2cce47ec_969387fa_ad26f537
+	    //e2de2e6f_d56ae251_7ccab096_902bd55b_8ffcf9dc_c3fd0000
+		//TAG: ca636b5a_3e8f66a6_2a73ab46_259fa2e5
+
+	int dec_frame1[] = {0x1E12320A, 0x22224444, 0x1111AAAA, 0x44445555, 0xAABBEEFF,
+			0, 0, 0, 2, 0x1AB3C589, 0xE3E64EC6, 0x1AB3C589, 0xE3E64EC6, 0x1FCC0000,
+			0xb6320386, 0xe90456c1, 0x60ae4bc5, 0x58df8cf4, 0x2cce47ec, 0x969387fa,
+			0xad26f537, 0xe2de2e6f, 0xd56ae251, 0x7ccab096, 0x902bd55b, 0x8ffcf9dc, 0xc3fd0000,
+			0xca636b5a, 0x3e8f66a6, 0x2a73ab46, 0x259fa2e5
+			};
+	//ascon_80pq, 7 bytes AD, 7 bytes TEXT, decrypt
+	//CONFIG:32'b00001101_00000111_00000111_00001110
+	//KEY: 160'h1111AAAA_FAFB4444_22226789_66223344_AABBEEFF
+	//NONCE: 128'h00000000_00000000_00000000_00000003
+	//AD: AABBCCDD_12345600
+	//TEXT: DDDDEEEE_4FCF8100
+	//TAG: 0db2bfe4_b71fc8a5_6709216b_82efc37e;(TRUE)
+	int dec_frame2[] = {0x1107070E, 0x1111AAAA, 0xFAFB4444, 0x22226789, 0x66223344, 0xAABBEEFF,
+			0, 0, 0, 3, 0xAABBCCDD, 0x12345600, 0xDDDDEEEE, 0x4FCF8100,
+			0x0db2bfe4, 0xb71fc8a5, 0x6709216b, 0x82efc31e};
+	//ASCON_XOF, 64 bytes MESSAGE, output: 64 bytes
+	//CONFIG:32'b00010000_01000000_01000000_00010101
+	//MES(AD):512'h11110000_22220000_33330000_44440000_4FCF816F_B65763D3_A38824BB_6AAC9780
+	//0xAABBDDCC_A38824BB_6AAC9780_4FCF816F_B65763D3_A38824BB_6AAC9780_AABBDDCC,
+	int hash_512[] = {0x10404015, 0x11110000, 0x22220000, 0x33330000, 0x44440000,
+			0x4FCF816F, 0xB65763D3, 0xA38824BB, 0x6AAC9780, 0xAABBDDCC, 0xA38824BB,
+			0x6AAC9780, 0x4FCF816F, 0xB65763D3, 0xA38824BB, 0x6AAC9780, 0xAABBDDCC};
+	//ascon_xof, 5 bytes MESSAGE, output: 32 bytes
+	//CONFIG:32'b00000010_00000101_00100000_00010001
+	//MES(AD):64'h1AB3C589_E3000000
+	int hash_256[] = {0x02052011, 0x1AB3C589, 0xE3000000};
+
+	//
+	//ASCON_128, 0bit AD, 64 bytes TEXT, decrypt
+	//CONFIG: 32'b00011000_00000000_01000000_00000110
+	//KEY:  128'h9D79B1A3_1111AAAA_66223344_AABBEEFF
+	//NONCE: 128'h00000000_00000000_00000000_00000004);
+	//CT:   512'h20339eff_1a012060_a4baf56a_31216e85_544d9132_d420c9cb
+	//_caf719dd_612fd925_ee0b7bf8_a33d5052_0ba1ae41_
+	//9e66e60f_c69a5a6c_70c479ae_3c4d42d0_36ce9510,
+	//TAG: 128'h3b1e60db_ffc3dda9_2179a2bb_951d3c4b
+	int dec_frame3[] = {0x1C004006, 0x9D79B1A3, 0x1111AAAA, 0x66223344, 0xAABBEEFF,
+					0, 0, 0, 4, 0x20339eff, 0x1a012060, 0xa4baf56a, 0x31216e85,
+					0x544d9132, 0xd420c9cb, 0xcaf719dd, 0x612fd925, 0xee0b7bf8,
+					0xa33d5052, 0x0ba1ae41, 0x9e66e60f, 0xc69a5a6c, 0x70c479ae,
+					0x3c4d42d0, 0x36ce9510,
+					0x3b1e60db, 0xffc3dda9, 0x2179a2bb, 0x951d3c40};
+	//
+	//ASCON_128A, 0 bytes AD, 10 bytes TEXT, decrypt
+	//CONFIG:32'b00001111_00000000_00001010_00001010
+	//KEY: EEEE1111_9D79B1A3_66223344_88882345
+	//NONCE: 128'h00000000_00000000_00000000_07
+	//AD:
+	//CT: d03991aa_f67ae4ba_a65e0000
+	//TAG: cadfd009_2523adb0_c0d6b356_f78e333d
+	int dec_frame4[] = {0x0F000A0A, 0xEEEE1111, 0x9D79B1A3, 0x66223344, 0x88882345,
+				0, 0, 0, 7, 0xd03991aa, 0xf67ae4ba, 0xa65e0000,
+				0xcadfd009, 0x2523adb0, 0xc0d6b356, 0xf78e3396};//0xf78e333d(true)
+	/*******************************************************
+	-----------------------INIT MEMORY---------------------
+	*******************************************************/
+	// Frame list pointer
+	int* frame_list[] = {enc_frame0, hash_512, dec_frame3, dec_frame4, hash_256, dec_frame1, dec_frame2};
+
+	// Lengths of each frame
+	int frame_length[] = {
+		sizeof(enc_frame0) / sizeof(int),
+		sizeof(hash_512) / sizeof(int),
+		sizeof(dec_frame3) / sizeof(int),
+		sizeof(dec_frame4) / sizeof(int),
+		sizeof(hash_256) /sizeof(int),
+		sizeof(dec_frame1) / sizeof(int),
+		sizeof(dec_frame2) / sizeof(int)
+		//
+		};
+	//
+	// Write all frames down to ONCHIP_MEMORY_2_1
+	//
+	n = sizeof(frame_list) / sizeof(frame_list[0]);
+	//
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < frame_length[i]; j++) {
+			*(mem_ptr + (k++)) = frame_list[i][j];
+		}
+	}
+	//calculate a number of words
+	for (int i = 0; i < n; i++) {
+		word_numbers = word_numbers + frame_length[i];
+	}
+	//
+	printf("MEM_INIT DONE!!!\n");
+	return word_numbers;
+}
+
+//
+//INIT_MEM0 function
+//
+int init_mem0(int outgap, int des_addr) {
+	//
+    volatile int* mem_ptr = (int *)ONCHIP_MEMORY2_1_BASE;
+    int k = 0; //mem index
+    int n = 0; //frames in total
+    int word_count = 0;
+    //
+    //ascon_128, 7 bytes AD, 7 bytes TEXT, encrypt
+    //CONFIG:32'b00001010_00000011_00000011_00000100
+    //KEY: 128'h22224444_1111AAAA_66223344_AABBEEFF
+    //NONCE: 128'h00000000_00000000_00000000_00000001
+    //AD: 82828211_1AB3EEXX
+    //TEXT: 44443333_AABBCCXX
+    int frame1[] = {des_addr, outgap, 5, 0x0C070704, 0x22224444, 0x1111AAAA, 0x66223344, 0xAABBEEFF,
+    		0, 0, 0, 1, 0x82828211, 0x1AB3EE00, 0x44443333, 0xAABBCC00};
+    //ascon_128a, 18 bytes AD, 50 bytes TEXT, encrypt
+    //CONFIG:32'b00010110_00010010_00110010_00001000
+	//KEY: 128'h22224444_1111AAAA_44445555_AABBEEFF
+	//NONCE: 128'h00000000_00000000_00000000_02
+	//AD: 0x1AB3C589 _ E3E64EC6 _ 0x1AB3C589 _ 0xE3E64EC6 _ 0x1FCC0000
+	//TEXT: 4FCF816F_B65763D3_A38824BB_6AAC9780_4FCF816F_B65763D3_A38824BB_6AAC9780_AABB0011
+    //0xA38824BB, 0x55555555, 0x33333333, 0x22220000
+	int frame2[] = {0x1A123208, 0x22224444, 0x1111AAAA, 0x44445555, 0xAABBEEFF,
+			0, 0, 0, 2, 0x1AB3C589, 0xE3E64EC6, 0x1AB3C589, 0xE3E64EC6, 0x1FCC0000,
+			0x4FCF816F, 0xB65763D3, 0xA38824BB, 0x6AAC9780, 0x4FCF816F, 0xB65763D3, 0xA38824BB,
+			0x6AAC9780, 0xAABB0011, 0xA38824BB, 0x55555555, 0x33333333, 0x22220000};
+
+	/*-------------------------------------------------------
+	---------------------HASH FUNCTION-----------------------
+	--------------------------------------------------------*/
+	//ASCON_XOF, 64 bytes MESSAGE, output: 64 bytes
+	//CONFIG:32'b00010000_01000000_01000000_00010101
+	//MES(AD):512'h11110000_22220000_33330000_44440000_4FCF816F_B65763D3_A38824BB_6AAC9780
+	//0xAABBDDCC_A38824BB_6AAC9780_4FCF816F_B65763D3_A38824BB_6AAC9780_AABBDDCC,
+	int hash_512[] = {0x10404015, 0x11110000, 0x22220000, 0x33330000, 0x44440000,
+			0x4FCF816F, 0xB65763D3, 0xA38824BB, 0x6AAC9780, 0xAABBDDCC, 0xA38824BB,
+			0x6AAC9780, 0x4FCF816F, 0xB65763D3, 0xA38824BB, 0x6AAC9780, 0xAABBDDCC};
+	//ASCON_HASH, 5 bytes MESSAGE, output: 32 bytes
+	//CONFIG:32'b00000010_00000101_00100000_00010001
+	//MES(AD):64'h1AB3C589_E3000000
+	int hash_256[] = {0x02052011, 0x1AB3C589, 0xE3000000};
+	//ASCON_XOF, 30 bytes MESSAGE, output: 48 bytes
+	//CONFIG:32'b00001000_00011110_00110000_00010101
+	//MES(AD):11110000_22220000_33330000_44440000_4FCF0000
+	/*int hash_384[] = {0x081E3015, 0x11110000, 0x22220000, 0x33330000, 0x44440000, 0x4FCF0000,
+						0x4FCF816F, 0xB65763D3, 0xA3880000};*/
+
+	//ASCON_80PQ, 26 bytes AD, 38 bytes TEXT, encrypt
+	//CONFIG:32'b00011010_00011010_00100110_00001100
+	//KEY: EEEE1111_9D79B1A3_66223344_88882345_12359876
+	//NONCE: 128'h00000000_00000000_00000000_06
+	//AD: 11AACCDD_12345678_87654321_AABBCCEE_DDDD1111_2222AAAA_33440000
+	//TEXT: B65763D3_A38824BB_6AAC9780_AABBDDCC_B65763D3_A38824BB_6AAC9780_4FCF816F_A38824BB_6AAC0000
+	int frame3[] = {0x1A1A260C, 0xEEEE1111, 0x9D79B1A3, 0x66223344, 0x88882345, 0x12359876,
+			0, 0, 0, 6, 0x11AACCDD, 0x12345678, 0x87654321, 0xAABBCCEE, 0xDDDD1111, 0x2222AAAA, 0x33440000,
+			0xB65763D3, 0xA38824BB, 0x6AAC9780, 0xAABBDDCC, 0xB65763D3, 0xA38824BB,
+			0x6AAC9780, 0x4FCF816F, 0xA38824BB, 0x6AAC0000};
+	//ASCON_128A, 0 bytes AD, 10 bytes TEXT
+	//CONFIG:32'b00001010_00000000_00001010_00001000
+	//KEY: EEEE1111_9D79B1A3_66223344_88882345
+	//NONCE: 128'h00000000_00000000_00000000_07
+	//AD:
+	//TEXT: 1111AAAA_BBBBCCCC_23450000
+	/*int frame4[] = {0x0B000A08, 0xEEEE1111, 0x9D79B1A3, 0x66223344, 0x88882345,
+				0, 0, 0, 7, 0x1111AAAA, 0xBBBBCCCC, 0x23450000};*/
+
+	/********************************************************
+	-----------------------INIT MEMORY----------------------
+	********************************************************/
+	// Frame list pointer
+	    int* frame_list[] = {frame1, hash_512, hash_256, frame2, frame3};
+	    // Lengths of each frame
+	    int frame_length[] = {
+	        sizeof(frame1) / sizeof(int),
+			sizeof(hash_512) / sizeof(int),
+			sizeof(hash_256) / sizeof(int),
+			sizeof(frame2) / sizeof(int),
+			sizeof(frame3) / sizeof(int)
+
+	        };
+	    //
+	    // Write all frames down to ONCHIP_MEMORY_2_1
+	    //
+	    n = sizeof(frame_list) / sizeof(frame_list[0]);
+	    //
+	    for (int i = 0; i < n; i++) {
+	        for (int j = 0; j < frame_length[i]; j++) {
+	            *(mem_ptr + (k++)) = frame_list[i][j];
+	        }
+	    }
+	    //calculate a number of words
+	    for (int i = 0; i< n; i++) {
+	    	word_count = word_count + frame_length[i];
+	    }
+	    //
+	    printf("MEM_INIT DONE!!!\n");
+	    return word_count;
+}
+
+//run
+void dma_session
+(int forward, int src_addr, int des_addr, int out_gap, int src_mem_words, int enc_case, int dec_case, int hash_block){
+
+	  volatile int* ascon_ptr = (int*)(ACTIVE_ASCON_0_BASE);
+	  volatile int* mem_ptr = (int*) des_addr;
+	  volatile int* hash_ptr = (int*) (des_addr + out_gap);
+	  unsigned int status = 0;
+	  int end_addr_write = 0;
+	  int i = 0;
+	  int in_out_size = 0;
+	  int tag_fail_cases = 0;
+
+	  //
+	  char buffer[BUFFER_SIZE];
+	  char* buf_ptr;
+	  memset(buffer, 0, sizeof(buffer));
+	  buf_ptr = buffer;
+	  //
+	  /*INIT DMA_ASCON*/
+	  *(ascon_ptr + 0) = src_addr;
+	  *(ascon_ptr + 1) = 1;
+
+	  /* Event loop never exits. */
+	  while (1){
+		  status = *(ascon_ptr + 2);
+		  //
+		  if ((status & 0x01) == 0x01){
+			  tag_fail_cases = (status >> 16) & 0xffff;
+			  //
+			  if(tag_fail_cases == 0) {
+				  in_out_size = (src_mem_words - TAG_WORDS*dec_case) + TAG_WORDS*enc_case;
+			  }
+			  else {
+				  end_addr_write = *(ascon_ptr + 3);
+				  in_out_size = (end_addr_write - des_addr) / 4;
+			  }
+			  //
+			  if(forward == 1){
+				  printf("DMA_ASCON[MEM1->MEM2] DONE!!!__in_out: %d(words)__tag_unmatches: %d(cases)\n", in_out_size, tag_fail_cases);
+			  }
+			  else {
+				  printf("DMA_ASCON[MEM2->MEM1] DONE!!!__in_out: %d(words)__tag_unmatches: %d(cases)\n", in_out_size, tag_fail_cases);
+			  }
+			  //
+			  //push all output into buffer
+			  //
+			  for (i = 0; i < in_out_size; i++){
+
+				  buf_ptr += sprintf(buf_ptr, "DATA[%d] = %08x\n", i, *(mem_ptr + i));
+			  }
+			  //
+			  fputs(buffer, stdout);
+			  memset(buffer, 0, sizeof(buffer));
+			  //
+			  //check hash code existence and read if it has
+			  if(hash_block != 0){
+
+				  buf_ptr = buffer; //move buf_ptr back to start pointer (buffer[0])
+				  //
+				  for (i = 0; i < hash_block * 2; i++){
+
+					  buf_ptr += sprintf(buf_ptr, "HASH[%d] = %x\n", i, *(hash_ptr + i));
+
+				  }
+				  //
+				  fputs(buffer, stdout);
+				  memset(buffer, 0, sizeof(buffer));
+			  }
+			  else {
+				  printf("NO_HASH_CODE!!!\n");
+			  }
+
+			  printf("CPU_READ DONE!!!\n");
+			  break;
+		  } //end of if check status
+	  }//end of while(1)
+}
+
+int main(void) {
+
+      //
+	  int out_gap = 2000;
+	  int total_words = 0;
+	  //
+	  //INIT MEMORY
+	  //
+      //total_words = init_mem1(out_gap, ONCHIP_MEMORY2_2_BASE); enc, dec and hash cases
+      total_words = init_mem0(out_gap, ONCHIP_MEMORY2_2_BASE); //enc and hash cases
+      //start DMA session
+      //enc + hash
+      dma_session(1, ONCHIP_MEMORY2_1_BASE, ONCHIP_MEMORY2_2_BASE, out_gap, total_words, 3, 0, 12);
+      //dec + hash
+      //dma_session(0, ONCHIP_MEMORY2_2_BASE, ONCHIP_MEMORY2_1_BASE, out_gap, total_words, 0, 0, 12);
+      //
+      return 0;
+}

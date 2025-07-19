@@ -1,0 +1,129 @@
+*****************************ASCON_128********************************
+******************************ATTEMPT 1*****************************
+CIPHERTEXT: 
+b9da0fae57dde8
+[valid_byte = 7 bytes] -> 0xfe
+TAG: edb5bce119463a70_6000184a3eef5115
+
+*****************************ASCON_HASH*******************************
+******************************ATTEMPT 2*****************************
+MESSAGE: 
+1ab3c589e3
+[valid_byte = 5 bytes] -> 0xf8
+HASH_CODE: 
+11d30c75de217f56
+be51a58e2cbf60f1
+19376fbca38be581
+cfd0058d98084e02
+[valid_byte = 32 bytes] -> 0xffffffff
+*****************************ASCON_128********************************
+******************************ATTEMPT 3*****************************
+v => 1____TAG_MATCHES
+PLAINTEXT: 
+aabbcc
+[valid_byte = 3 bytes] -> 0xe
+******************************ASCON_XOF*******************************
+******************************ATTEMPT 4*****************************
+MESSAGE: 
+1111000022220000
+3333000044440000
+4fcf816fb65763d3
+a38824bb6aac9780
+aabbddcca38824bb
+6aac97804fcf816f
+b65763d3a38824bb
+6aac9780aabbddcc
+[valid_byte = 64 bytes] -> 0xffffffffffffffff
+HASH_CODE: 
+145cee06b7cf3c72
+1c64d36cca51f2bc
+18cf7a1f2d437cd5
+40e90dc05359e494
+b7413214f272c779
+eead01acb4e84ec8
+5845f5f02583068c
+d06e825a4f47e428
+[valid_byte = 64 bytes] -> 0xffffffffffffffff
+*****************************ASCON_128A*******************************
+******************************ATTEMPT 5*****************************
+CIPHERTEXT: 
+b6320386e90456c1
+60ae4bc558df8cf4
+2cce47ec969387fa
+ad26f537e2de2e6f
+d56ae2517ccab096
+902bd55b8ffcf9dc
+c3fd
+[valid_byte = 50 bytes] -> 0xffffffffffffc
+TAG: ca636b5a3e8f66a6_2a73ab46259fa2e5
+
+*****************************ASCON_80PQ*******************************
+******************************ATTEMPT 6*****************************
+CIPHERTEXT: 
+593a507eaed4fe
+[valid_byte = 7 bytes] -> 0xfe
+TAG: 0db2bfe4b71fc8a5_6709216b82efc37e
+
+*****************************ASCON_128********************************
+******************************ATTEMPT 7*****************************
+CIPHERTEXT: 
+20339eff1a012060
+a4baf56a31216e85
+544d9132d420c9cb
+caf719dd612fd925
+ee0b7bf8a33d5052
+0ba1ae419e66e60f
+c69a5a6c70c479ae
+3c4d42d036ce9510
+[valid_byte = 64 bytes] -> 0xffffffffffffffff
+TAG: 3b1e60dbffc3dda9_2179a2bb951d3c4b
+
+*****************************ASCON_80PQ*******************************
+******************************ATTEMPT 8*****************************
+CIPHERTEXT: 
+0025caff
+[valid_byte = 4 bytes] -> 0xf
+TAG: a389972a7b7e3bcb_a8b30e3cb5832e66
+
+******************************ASCON_XOF*******************************
+******************************ATTEMPT 9*****************************
+MESSAGE: 
+1111000022220000
+3333000044440000
+4fcf00004fcf816f
+b65763d3a388
+[valid_byte = 30 bytes] -> 0xfffffffc
+HASH_CODE: 
+c050f7a6e6594411
+d096a2fe52b5a57a
+38dd3e83c47d1387
+b726b7de8391d8bd
+e41ded87bebba3f4
+1788a3f4de3d8e8d
+[valid_byte = 48 bytes] -> 0xffffffffffff
+*****************************ASCON_80PQ*******************************
+******************************ATTEMPT 10*****************************
+CIPHERTEXT: 
+4f29e7e64e5cc8cd
+e8ec8e71c2ed21a0
+022302cddc050df4
+3274e050c9877e84
+9f6cd64219e2
+[valid_byte = 38 bytes] -> 0xfffffffffc
+TAG: d58399ee4965817f_0c3ab01dd45c2f36
+
+*****************************ASCON_128A*******************************
+******************************ATTEMPT 11*****************************
+CIPHERTEXT: 
+d03991aaf67ae4ba
+a65e
+[valid_byte = 10 bytes] -> 0xffc
+TAG: cadfd0092523adb0_c0d6b356f78e333d
+
+*****************************ASCON_128A*******************************
+******************************ATTEMPT 12*****************************
+v => 1____TAG_MATCHES
+PLAINTEXT: 
+1111aaaabbbbcccc
+234500112267ae
+[valid_byte = 15 bytes] -> 0xfffe

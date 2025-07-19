@@ -1,0 +1,3581 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do load_sim.tcl
+# obj/default/runtime/sim
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+#  ld
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:18 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:17:18 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:18 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 17:17:18 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:18 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module system_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_avalon_st_adapter
+# End time: 17:17:18 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:18 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_mux_003.sv -L altera_common_sv_packages -work rsp_mux_003 
+# -- Compiling module system_mm_interconnect_0_rsp_mux_003
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_rsp_mux_003
+# End time: 17:17:18 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:18 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_003 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 17:17:18 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:18 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_mux_002.sv -L altera_common_sv_packages -work rsp_mux_002 
+# -- Compiling module system_mm_interconnect_0_rsp_mux_002
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_rsp_mux_002
+# End time: 17:17:19 on Jul 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:19 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_002 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 17:17:19 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:19 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module system_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_rsp_mux
+# End time: 17:17:19 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:19 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 17:17:19 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:19 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_demux_003.sv -L altera_common_sv_packages -work rsp_demux_003 
+# -- Compiling module system_mm_interconnect_0_rsp_demux_003
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_rsp_demux_003
+# End time: 17:17:19 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:19 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_mux_003.sv -L altera_common_sv_packages -work cmd_mux_003 
+# -- Compiling module system_mm_interconnect_0_cmd_mux_003
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_cmd_mux_003
+# End time: 17:17:19 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:19 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_003 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 17:17:20 on Jul 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:20 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_mux_002.sv -L altera_common_sv_packages -work cmd_mux_002 
+# -- Compiling module system_mm_interconnect_0_cmd_mux_002
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_cmd_mux_002
+# End time: 17:17:20 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:20 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_002 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 17:17:20 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:20 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module system_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_cmd_mux
+# End time: 17:17:20 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:20 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 17:17:20 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:20 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux_003.sv -L altera_common_sv_packages -work cmd_demux_003 
+# -- Compiling module system_mm_interconnect_0_cmd_demux_003
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_cmd_demux_003
+# End time: 17:17:20 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:20 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux_002.sv -L altera_common_sv_packages -work cmd_demux_002 
+# -- Compiling module system_mm_interconnect_0_cmd_demux_002
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_cmd_demux_002
+# End time: 17:17:20 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:21 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
+# -- Compiling module system_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_cmd_demux_001
+# End time: 17:17:21 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:21 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module system_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_cmd_demux
+# End time: 17:17:21 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:21 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv -L altera_common_sv_packages -work active_ascon_0_Master_Read_limiter 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 17:17:21 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:22 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_reorder_memory.sv -L altera_common_sv_packages -work active_ascon_0_Master_Read_limiter 
+# -- Compiling module altera_merlin_reorder_memory
+# -- Compiling module memory_pointer_controller
+# 
+# Top level modules:
+# 	altera_merlin_reorder_memory
+# End time: 17:17:22 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:23 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_avalon_sc_fifo.v -L altera_common_sv_packages -work active_ascon_0_Master_Read_limiter 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 17:17:23 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:23 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work active_ascon_0_Master_Read_limiter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 17:17:23 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:23 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_007.sv -L altera_common_sv_packages -work router_007 
+# -- Compiling module system_mm_interconnect_0_router_007_default_decode
+# -- Compiling module system_mm_interconnect_0_router_007
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_router_007
+# End time: 17:17:23 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:23 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_006.sv -L altera_common_sv_packages -work router_006 
+# -- Compiling module system_mm_interconnect_0_router_006_default_decode
+# -- Compiling module system_mm_interconnect_0_router_006
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_router_006
+# End time: 17:17:23 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:24 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_004.sv -L altera_common_sv_packages -work router_004 
+# -- Compiling module system_mm_interconnect_0_router_004_default_decode
+# -- Compiling module system_mm_interconnect_0_router_004
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_router_004
+# End time: 17:17:24 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:24 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_003.sv -L altera_common_sv_packages -work router_003 
+# -- Compiling module system_mm_interconnect_0_router_003_default_decode
+# -- Compiling module system_mm_interconnect_0_router_003
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_router_003
+# End time: 17:17:24 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:24 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
+# -- Compiling module system_mm_interconnect_0_router_002_default_decode
+# -- Compiling module system_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_router_002
+# End time: 17:17:24 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:24 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module system_mm_interconnect_0_router_default_decode
+# -- Compiling module system_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	system_mm_interconnect_0_router
+# End time: 17:17:24 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:24 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_avalon_sc_fifo.v -work onchip_memory2_2_s1_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 17:17:24 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:24 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work onchip_memory2_2_s1_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 17:17:24 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:25 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work onchip_memory2_2_s1_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 17:17:25 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:25 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work active_ascon_0_Master_Read_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 17:17:25 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:25 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work onchip_memory2_2_s1_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 17:17:25 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:25 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work active_ascon_0_Master_Read_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 17:17:25 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:26 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v -work cpu 
+# -- Compiling module system_nios2_gen2_0_cpu_register_bank_a_module
+# -- Compiling module system_nios2_gen2_0_cpu_register_bank_b_module
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_debug
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_break
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_xbrk
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_dbrk
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_itrace
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_td_mode
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_dtrace
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_fifo
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_pib
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci_im
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_performance_monitors
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_avalon_reg
+# -- Compiling module system_nios2_gen2_0_cpu_ociram_sp_ram_module
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_ocimem
+# -- Compiling module system_nios2_gen2_0_cpu_nios2_oci
+# -- Compiling module system_nios2_gen2_0_cpu
+# 
+# Top level modules:
+# 	system_nios2_gen2_0_cpu_nios2_performance_monitors
+# 	system_nios2_gen2_0_cpu
+# End time: 17:17:26 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:26 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_debug_slave_sysclk.v -work cpu 
+# -- Compiling module system_nios2_gen2_0_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	system_nios2_gen2_0_cpu_debug_slave_sysclk
+# End time: 17:17:26 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:26 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_debug_slave_tck.v -work cpu 
+# -- Compiling module system_nios2_gen2_0_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	system_nios2_gen2_0_cpu_debug_slave_tck
+# End time: 17:17:26 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:26 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_debug_slave_wrapper.v -work cpu 
+# -- Compiling module system_nios2_gen2_0_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	system_nios2_gen2_0_cpu_debug_slave_wrapper
+# End time: 17:17:26 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:26 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_test_bench.v -work cpu 
+# -- Compiling module system_nios2_gen2_0_cpu_test_bench
+# 
+# Top level modules:
+# 	system_nios2_gen2_0_cpu_test_bench
+# End time: 17:17:26 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:26 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 17:17:27 on Jul 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:27 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 17:17:27 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:27 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
+# -- Compiling module system_irq_mapper
+# 
+# Top level modules:
+# 	system_irq_mapper
+# End time: 17:17:27 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:27 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module system_mm_interconnect_0
+# 
+# Top level modules:
+# 	system_mm_interconnect_0
+# End time: 17:17:27 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:27 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v -work onchip_memory2_2 
+# -- Compiling module system_onchip_memory2_2
+# 
+# Top level modules:
+# 	system_onchip_memory2_2
+# End time: 17:17:27 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:27 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v -work onchip_memory2_1 
+# -- Compiling module system_onchip_memory2_1
+# 
+# Top level modules:
+# 	system_onchip_memory2_1
+# End time: 17:17:27 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:27 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v -work onchip_memory2_0 
+# -- Compiling module system_onchip_memory2_0
+# 
+# Top level modules:
+# 	system_onchip_memory2_0
+# End time: 17:17:27 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:28 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0.v -work nios2_gen2_0 
+# -- Compiling module system_nios2_gen2_0
+# 
+# Top level modules:
+# 	system_nios2_gen2_0
+# End time: 17:17:28 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:28 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_jtag_uart_0.v -work jtag_uart_0 
+# -- Compiling module system_jtag_uart_0_sim_scfifo_w
+# -- Compiling module system_jtag_uart_0_scfifo_w
+# -- Compiling module system_jtag_uart_0_sim_scfifo_r
+# -- Compiling module system_jtag_uart_0_scfifo_r
+# -- Compiling module system_jtag_uart_0
+# 
+# Top level modules:
+# 	system_jtag_uart_0
+# End time: 17:17:28 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:28 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/RiSiEdgeDetector.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module RiSiEdgeDetector
+# 
+# Top level modules:
+# 	RiSiEdgeDetector
+# End time: 17:17:28 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:28 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/config.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling package ascon_cfg
+# -- Compiling package dma_cfg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:17:28 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:28 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_core.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module ascon_core
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	ascon_core
+# End time: 17:17:28 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:28 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/compare.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module compare
+# 
+# Top level modules:
+# 	compare
+# End time: 17:17:28 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:28 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/counter.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module counter
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	counter
+# End time: 17:17:28 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:29 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/flag.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module flag
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	flag
+# End time: 17:17:29 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:29 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/fsm_control.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module fsm_control
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	fsm_control
+# End time: 17:17:29 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:29 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/function.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling package func
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:17:29 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:29 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_ad_text.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module get_ad_text
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	get_ad_text
+# End time: 17:17:29 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:29 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_config.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module get_config
+# -- Importing package ascon_cfg
+# -- Importing package func
+# 
+# Top level modules:
+# 	get_config
+# End time: 17:17:29 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:29 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_data.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module get_data
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	get_data
+# End time: 17:17:29 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:29 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_key_nonce.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module get_key_nonce
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	get_key_nonce
+# End time: 17:17:29 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:30 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/get_tag.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module get_tag
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	get_tag
+# End time: 17:17:30 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:30 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/handle_data.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module handle_data
+# -- Importing package func
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	handle_data
+# End time: 17:17:30 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:30 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/permutation.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module permutation
+# 
+# Top level modules:
+# 	permutation
+# End time: 17:17:30 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:30 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sc_fifo.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module sc_fifo
+# 
+# Top level modules:
+# 	sc_fifo
+# End time: 17:17:30 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:30 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_data.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module store_data
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	store_data
+# End time: 17:17:30 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:30 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/update_state.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module update_state
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	update_state
+# End time: 17:17:30 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:30 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v -work active_ascon_0 
+# -- Compiling module pll_clk_0002
+# 
+# Top level modules:
+# 	pll_clk_0002
+# End time: 17:17:31 on Jul 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:31 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/DMA_Core.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module DMA_Core
+# 
+# Top level modules:
+# 	DMA_Core
+# End time: 17:17:31 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:31 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/bdi_fifo.v -work active_ascon_0 
+# -- Compiling module bdi_fifo
+# 
+# Top level modules:
+# 	bdi_fifo
+# End time: 17:17:31 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:31 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ckn_ad_fifo.v -work active_ascon_0 
+# -- Compiling module ckn_ad_fifo
+# 
+# Top level modules:
+# 	ckn_ad_fifo
+# End time: 17:17:31 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:31 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/clk_divider.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	clk_divider
+# End time: 17:17:31 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:31 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_register_file.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module control_register_file
+# -- Importing package dma_cfg
+# 
+# Top level modules:
+# 	control_register_file
+# End time: 17:17:31 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:31 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/control_unit.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 17:17:31 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:32 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dma_to_sub.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module dma_to_sub
+# 
+# Top level modules:
+# 	dma_to_sub
+# End time: 17:17:32 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:32 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/dynamic_config.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module dynamic_config
+# 
+# Top level modules:
+# 	dynamic_config
+# End time: 17:17:32 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:32 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/format_data.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module format_data
+# -- Importing package ascon_cfg
+# -- Importing package dma_cfg
+# 
+# Top level modules:
+# 	format_data
+# End time: 17:17:32 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:32 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/host_register.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module host_register
+# 
+# Top level modules:
+# 	host_register
+# End time: 17:17:32 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:32 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/key_fifo.v -work active_ascon_0 
+# -- Compiling module key_fifo
+# 
+# Top level modules:
+# 	key_fifo
+# End time: 17:17:32 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:32 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk.v -work active_ascon_0 
+# -- Compiling module pll_clk
+# 
+# Top level modules:
+# 	pll_clk
+# End time: 17:17:32 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:32 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pulse_synchronizer.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module pulse_synchronizer
+# 
+# Top level modules:
+# 	pulse_synchronizer
+# End time: 17:17:32 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:33 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rd_request.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module rd_request
+# 
+# Top level modules:
+# 	rd_request
+# End time: 17:17:33 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:33 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/res_req_fifo.v -work active_ascon_0 
+# -- Compiling module res_req_fifo
+# 
+# Top level modules:
+# 	res_req_fifo
+# End time: 17:17:33 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:33 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/rstn_synchronizer.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module rstn_synchronizer
+# 
+# Top level modules:
+# 	rstn_synchronizer
+# End time: 17:17:33 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:33 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/store_ckn_ad.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module store_ckn_ad
+# 
+# Top level modules:
+# 	store_ckn_ad
+# End time: 17:17:33 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:33 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/sub_to_dma.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module sub_to_dma
+# -- Importing package dma_cfg
+# -- Importing package ascon_cfg
+# 
+# Top level modules:
+# 	sub_to_dma
+# End time: 17:17:33 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:33 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/tag_fifo.v -work active_ascon_0 
+# -- Compiling module tag_fifo
+# 
+# Top level modules:
+# 	tag_fifo
+# End time: 17:17:33 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:33 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/text_fifo.v -work active_ascon_0 
+# -- Compiling module text_fifo
+# 
+# Top level modules:
+# 	text_fifo
+# End time: 17:17:33 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:34 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_handle.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module wr_handle
+# 
+# Top level modules:
+# 	wr_handle
+# End time: 17:17:34 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:34 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_info_fifo.v -work active_ascon_0 
+# -- Compiling module wr_info_fifo
+# 
+# Top level modules:
+# 	wr_info_fifo
+# End time: 17:17:34 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:34 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/wr_request.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module wr_request
+# 
+# Top level modules:
+# 	wr_request
+# End time: 17:17:34 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:34 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module ascon_top
+# 
+# Top level modules:
+# 	ascon_top
+# End time: 17:17:34 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:34 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top3.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module ascon_top3
+# 
+# Top level modules:
+# 	ascon_top3
+# End time: 17:17:34 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:34 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/ascon_top4.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module ascon_top4
+# 
+# Top level modules:
+# 	ascon_top4
+# End time: 17:17:34 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:34 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/instance_fifo.v -work active_ascon_0 
+# -- Compiling module instance_fifo
+# 
+# Top level modules:
+# 	instance_fifo
+# End time: 17:17:34 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:35 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/active_ascon.sv -L altera_common_sv_packages -work active_ascon_0 
+# -- Compiling module active_ascon
+# 
+# Top level modules:
+# 	active_ascon
+# End time: 17:17:35 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:35 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work system_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 17:17:35 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:35 on Jul 12,2025
+# vlog -reportprogress 300 -sv C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work system_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 17:17:35 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:35 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system.v -work system_inst 
+# -- Compiling module system
+# 
+# Top level modules:
+# 	system
+# End time: 17:17:35 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:17:35 on Jul 12,2025
+# vlog -reportprogress 300 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/system_tb.v 
+# -- Compiling module system_tb
+# 
+# Top level modules:
+# 	system_tb
+# End time: 17:17:35 on Jul 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_003 -L rsp_mux_002 -L rsp_mux -L rsp_demux_003 -L cmd_mux_003 -L cmd_mux_002 -L cmd_mux -L cmd_demux_003 -L cmd_demux_002 -L cmd_demux_001 -L cmd_demux -L active_ascon_0_Master_Read_limiter -L router_007 -L router_006 -L router_004 -L router_003 -L router_002 -L router -L onchip_memory2_2_s1_agent_rsp_fifo -L onchip_memory2_2_s1_agent -L active_ascon_0_Master_Read_agent -L onchip_memory2_2_s1_translator -L active_ascon_0_Master_Read_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L onchip_memory2_2 -L onchip_memory2_1 -L onchip_memory2_0 -L nios2_gen2_0 -L jtag_uart_0 -L active_ascon_0 -L system_inst_reset_bfm -L system_inst_clk_bfm -L system_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver system_tb 
+# Start time: 17:17:36 on Jul 12,2025
+# Loading work.system_tb
+# Loading system_inst.system
+# Loading sv_std.std
+# Loading active_ascon_0.active_ascon
+# Loading active_ascon_0.DMA_Core
+# Loading active_ascon_0.host_register
+# Loading active_ascon_0.clk_divider
+# Loading active_ascon_0.pll_clk
+# Loading active_ascon_0.pll_clk_0002
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading active_ascon_0.rstn_synchronizer
+# Loading active_ascon_0.RiSiEdgeDetector
+# Loading active_ascon_0.control_unit
+# Loading active_ascon_0.rd_request
+# Loading active_ascon_0.dynamic_config
+# Loading active_ascon_0.dma_cfg
+# Loading active_ascon_0.control_register_file
+# Loading active_ascon_0.wr_info_fifo
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading active_ascon_0.store_ckn_ad
+# Loading active_ascon_0.ckn_ad_fifo
+# Loading active_ascon_0.ascon_cfg
+# Loading active_ascon_0.format_data
+# Loading active_ascon_0.pulse_synchronizer
+# Loading active_ascon_0.bdi_fifo
+# Loading altera_mf_ver.dcfifo_mixed_widths
+# Loading altera_mf_ver.dcfifo_low_latency
+# Loading altera_mf_ver.ALTERA_MF_HINT_EVALUATION
+# Loading altera_mf_ver.dcfifo_dffpipe
+# Loading active_ascon_0.key_fifo
+# Loading altera_mf_ver.dcfifo
+# Loading active_ascon_0.dma_to_sub
+# Loading active_ascon_0.wr_handle
+# Loading active_ascon_0.sub_to_dma
+# Loading active_ascon_0.res_req_fifo
+# Loading active_ascon_0.tag_fifo
+# Loading active_ascon_0.text_fifo
+# Loading active_ascon_0.wr_request
+# Loading active_ascon_0.ascon_top
+# Loading active_ascon_0.ascon_core
+# Loading active_ascon_0.fsm_control
+# Loading active_ascon_0.get_data
+# Loading active_ascon_0.func
+# Loading active_ascon_0.get_config
+# Loading active_ascon_0.get_key_nonce
+# Loading active_ascon_0.get_ad_text
+# Loading active_ascon_0.sc_fifo
+# Loading active_ascon_0.get_tag
+# Loading active_ascon_0.handle_data
+# Loading active_ascon_0.store_data
+# Loading active_ascon_0.flag
+# Loading active_ascon_0.counter
+# Loading active_ascon_0.update_state
+# Loading active_ascon_0.permutation
+# Loading active_ascon_0.compare
+# Loading active_ascon_0.instance_fifo
+# Loading jtag_uart_0.system_jtag_uart_0
+# Loading jtag_uart_0.system_jtag_uart_0_scfifo_w
+# Loading jtag_uart_0.system_jtag_uart_0_sim_scfifo_w
+# Loading jtag_uart_0.system_jtag_uart_0_scfifo_r
+# Loading jtag_uart_0.system_jtag_uart_0_sim_scfifo_r
+# Loading nios2_gen2_0.system_nios2_gen2_0
+# Loading cpu.system_nios2_gen2_0_cpu
+# Loading cpu.system_nios2_gen2_0_cpu_test_bench
+# Loading cpu.system_nios2_gen2_0_cpu_register_bank_a_module
+# Loading altera_mf_ver.altsyncram
+# Loading cpu.system_nios2_gen2_0_cpu_register_bank_b_module
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_break
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_xbrk
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_dbrk
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_itrace
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_dtrace
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_td_mode
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_fifo
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_pib
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_oci_im
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_avalon_reg
+# Loading cpu.system_nios2_gen2_0_cpu_nios2_ocimem
+# Loading cpu.system_nios2_gen2_0_cpu_ociram_sp_ram_module
+# Loading cpu.system_nios2_gen2_0_cpu_debug_slave_wrapper
+# Loading cpu.system_nios2_gen2_0_cpu_debug_slave_tck
+# Loading cpu.system_nios2_gen2_0_cpu_debug_slave_sysclk
+# Loading onchip_memory2_0.system_onchip_memory2_0
+# Loading onchip_memory2_1.system_onchip_memory2_1
+# Loading onchip_memory2_2.system_onchip_memory2_2
+# Loading mm_interconnect_0.system_mm_interconnect_0
+# Loading active_ascon_0_Master_Read_translator.altera_merlin_master_translator
+# Loading onchip_memory2_2_s1_translator.altera_merlin_slave_translator
+# Loading active_ascon_0_Master_Read_agent.altera_merlin_master_agent
+# Loading onchip_memory2_2_s1_agent.altera_merlin_slave_agent
+# Loading onchip_memory2_2_s1_agent.altera_merlin_burst_uncompressor
+# Loading active_ascon_0_Master_Read_limiter.altera_avalon_sc_fifo
+# Loading router.system_mm_interconnect_0_router
+# Loading router.system_mm_interconnect_0_router_default_decode
+# Loading router_002.system_mm_interconnect_0_router_002
+# Loading router_002.system_mm_interconnect_0_router_002_default_decode
+# Loading router_003.system_mm_interconnect_0_router_003
+# Loading router_003.system_mm_interconnect_0_router_003_default_decode
+# Loading router_004.system_mm_interconnect_0_router_004
+# Loading router_004.system_mm_interconnect_0_router_004_default_decode
+# Loading router_006.system_mm_interconnect_0_router_006
+# Loading router_006.system_mm_interconnect_0_router_006_default_decode
+# Loading router_007.system_mm_interconnect_0_router_007
+# Loading router_007.system_mm_interconnect_0_router_007_default_decode
+# Loading active_ascon_0_Master_Read_limiter.altera_merlin_traffic_limiter
+# Loading cmd_demux.system_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.system_mm_interconnect_0_cmd_demux_001
+# Loading cmd_demux_002.system_mm_interconnect_0_cmd_demux_002
+# Loading cmd_demux_003.system_mm_interconnect_0_cmd_demux_003
+# Loading cmd_mux.system_mm_interconnect_0_cmd_mux
+# Loading cmd_mux.altera_merlin_arbitrator
+# Loading cmd_mux.altera_merlin_arb_adder
+# Loading cmd_mux_002.system_mm_interconnect_0_cmd_mux_002
+# Loading cmd_mux_002.altera_merlin_arbitrator
+# Loading cmd_mux_002.altera_merlin_arb_adder
+# Loading cmd_mux_003.system_mm_interconnect_0_cmd_mux_003
+# Loading rsp_demux_003.system_mm_interconnect_0_rsp_demux_003
+# Loading rsp_mux.system_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_002.system_mm_interconnect_0_rsp_mux_002
+# Loading rsp_mux_002.altera_merlin_arbitrator
+# Loading rsp_mux_002.altera_merlin_arb_adder
+# Loading rsp_mux_003.system_mm_interconnect_0_rsp_mux_003
+# Loading rsp_mux_003.altera_merlin_arbitrator
+# Loading rsp_mux_003.altera_merlin_arb_adder
+# Loading avalon_st_adapter.system_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading irq_mapper.system_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading system_inst_clk_bfm.altera_avalon_clock_source
+# Loading system_inst_reset_bfm.altera_avalon_reset_source
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# Loading altera_mf_ver.dcfifo_async
+# Loading altera_mf_ver.dcfifo_fefifo
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Too few port connections. Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/active_ascon_0/dmac_core/u_host_reg/clk_divider/pll_clk/pll_clk_inst/altera_pll_i File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/pll_clk_0002.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3017) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/active_ascon_0/dmac_core/ctrl_unit/dyn_cfg/fmt_data/key_fifo/dcfifo_component/DCFIFO_MW File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/active_ascon_0/dmac_core/ctrl_unit/wr_hdl/sub_to_dma/res_req_fifo/dcfifo_component/DCFIFO_MW File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/active_ascon_0/dmac_core/ctrl_unit/wr_hdl/sub_to_dma/tag_fifo/dcfifo_component/DCFIFO_MW File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/active_ascon_0/dmac_core/ctrl_unit/wr_hdl/sub_to_dma/text_fifo/dcfifo_component/DCFIFO_MW File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(31790): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system.v(102): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/jtag_uart_0 File: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_jtag_uart_0.v
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system.v(102): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system.v(102): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/nios2_gen2_0/cpu/system_nios2_gen2_0_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/nios2_gen2_0/cpu/system_nios2_gen2_0_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/nios2_gen2_0/cpu/the_system_nios2_gen2_0_cpu_nios2_oci/the_system_nios2_gen2_0_cpu_nios2_oci_itrace File: C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/nios2_gen2_0/cpu/the_system_nios2_gen2_0_cpu_nios2_oci/the_system_nios2_gen2_0_cpu_nios2_ocimem/system_nios2_gen2_0_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/onchip_memory2_0/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/onchip_memory2_1/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_1.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/system_inst/onchip_memory2_2/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_2.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 17938 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+#  
+do add_wave.do
+run 100ms
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (system_tb.system_inst.active_ascon_0.dmac_core.u_host_reg.clk_divider.pll_clk.pll_clk_inst.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = system_tb.system_inst.active_ascon_0.dmac_core.u_host_reg.clk_divider.pll_clk.pll_clk_inst.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 MHz
+# Info: output_clock_frequency = 50 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 10000.000000
+# Info: output_clock_low_period = 10000.000000
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: system_tb.system_inst.nios2_gen2_0.cpu.the_system_nios2_gen2_0_cpu_nios2_oci.the_system_nios2_gen2_0_cpu_nios2_ocimem.system_nios2_gen2_0_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: system_tb.system_inst.onchip_memory2_0.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: system_tb.system_inst.onchip_memory2_1.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: system_tb.system_inst.onchip_memory2_2.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: system_tb.system_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: system_tb.system_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: system_tb.system_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: system_tb.system_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: system_tb.system_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: system_tb.system_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: system_tb.system_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: system_tb.system_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: system_tb.system_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: system_tb.system_inst_reset_bfm.reset_assert: Reset asserted
+#               990000: INFO: system_tb.system_inst_reset_bfm.reset_deassert: Reset deasserted
+# MEM_INIT DONE!!!
+# *********(GET_DATA)--KEY***********
+# new_key_reg = 0000000000000000000000000000000000000000
+# run_key_reg = 00000000222244441111aaaa66223344aabbeeff
+# *********(GET_NONCE)***********
+# nonce_reg = 00000000000000000000000000000001
+# **************************************************
+# ------------------(Update State)------------------
+# --------------MODE: ASCON_128--------------
+# -------------NEW ASCON FUNCTION START-------------
+# **************************************************
+# state_reg[0] = 80400c0600000000
+# state_reg[1] = 222244441111aaaa
+# state_reg[2] = 66223344aabbeeff
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000001
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 80400c0600000000
+# state_reg[1] = 222244441111aaaa
+# state_reg[2] = 66223344aabbeeff
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000001
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = e1d6c68f6b88816f
+# state_reg[1] = 5289a17c7049fcae
+# state_reg[2] = 15b8df7977791486
+# state_reg[3] = 1b2f48c98d7aa757
+# state_reg[4] = effa128ed0a9ccb6
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a20dc5c74105f920
+# state_reg[1] = 9f4e71e125356e73
+# state_reg[2] = e73ef4a7e3caa2f1
+# state_reg[3] = 09ddf7e85bfcc321
+# state_reg[4] = cd4d176862eb4afe
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 017ae3171bb58e57
+# state_reg[1] = 58285552b165e5fa
+# state_reg[2] = 9c8e4aa2507e218c
+# state_reg[3] = 6022eb03a7664e63
+# state_reg[4] = 212ba5bc5d4162ea
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ac3bb5e63669fd58
+# state_reg[1] = c3537fed64ae0d5f
+# state_reg[2] = 558b89462249633a
+# state_reg[3] = b8700c83a4219114
+# state_reg[4] = acf3f23d482cd6dc
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => ac3bb5e63669fd58
+# selected_bd => 828282111ab3ee80
+# new_state_o => 2eb937f72cda13d8
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 28b29ef15a770dde
+# state_reg[1] = d25711d535fdcff5
+# state_reg[2] = 961e7e4ac52e9467
+# state_reg[3] = 665045dc5c307eab
+# state_reg[4] = 53db43d9e5e028bd
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = fd9e3c9dfd662423
+# state_reg[1] = f905562d58f32b7c
+# state_reg[2] = 3882c63a67ab62ba
+# state_reg[3] = 6c85b8160f4f6981
+# state_reg[4] = 7281b42dd488833b
+# ---------------------*****************-------------------------
+# ---------(Update State)-AFTER INIT_ADD_KEY-------
+# state_reg[0] = fd9e3c9dfd662423
+# state_reg[1] = f905562d58f32b7c
+# state_reg[2] = 3882c63a67ab62ba
+# state_reg[3] = 6c85b8160f4f6981
+# state_reg[4] = 7281b42dd488833b
+# ---------------------*****************-------------------------
+# ---------(Update State)-AFTER INIT_ADD_KEY-------
+# state_reg[0] = fd9e3c9dfd662423
+# state_reg[1] = f905562d58f32b7c
+# state_reg[2] = 3882c63a67ab62ba
+# state_reg[3] = 6c85b8160f4f6981
+# state_reg[4] = 7281b42dd488833a
+# ---------------------*****************-------------------------
+# ---------(Update State) BEFORE FINAL PERMUTATION__AFTER ADD KEY ---------
+# state_reg[0] = fd9e3c9dfd662423
+# state_reg[1] = f905562d58f32b7c
+# state_reg[2] = 3882c63a67ab62ba
+# state_reg[3] = 6c85b8160f4f6981
+# state_reg[4] = 7281b42dd488833a
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => fd9e3c9dfd662423
+# selected_bd => 44443333aabbcc80
+# xor_result => b9da0fae57dde8a3
+# (enc)new_state_o => b9da0fae57dde8a3
+# bd_o => 00000000
+# ----------**********-----------
+# ---------(Update State) BEFORE FINAL PERMUTATION__AFTER ADD KEY ---------
+# state_reg[0] = b9da0fae57dde8a3
+# state_reg[1] = db27126949e281d6
+# state_reg[2] = 5ea0f57ecd108c45
+# state_reg[3] = 6c85b8160f4f6981
+# state_reg[4] = 7281b42dd488833a
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 68bf9ca013e6fedc
+# state_reg[1] = 0560f376e81fcdc6
+# state_reg[2] = 5c8ac6f455c657e8
+# state_reg[3] = 1dba79388c4f8db9
+# state_reg[4] = 3481cc5163df59b0
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = c166ed291dcd772b
+# state_reg[1] = 8199ac80dc880e2e
+# state_reg[2] = 879fe07418195469
+# state_reg[3] = a0c81ace611907e6
+# state_reg[4] = 400ff3fb07d9a6c3
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = c783a1c404476519
+# state_reg[1] = a556debbd1bd920a
+# state_reg[2] = 2aae23053fe0760a
+# state_reg[3] = b8df44f3964b9370
+# state_reg[4] = 7df448b5b9ec9111
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = cc091536faa0a656
+# state_reg[1] = 1542f335e2fd13bf
+# state_reg[2] = ddfd99bc3992993e
+# state_reg[3] = cf97f8a5085790da
+# state_reg[4] = 06222b0e9454bfea
+# ---------------------*****************-------------------------
+# TAG => edb5bce1
+# -----------------*****************--------------
+# TAG => 19463a70
+# -----------------*****************--------------
+# TAG => 6000184a
+# -----------------*****************--------------
+# TAG => 3eef5115
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = b9da0fae
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => e
+# DATA_O = 57dde8a3
+# -----------------*****************--------------
+# *********(GET_NONCE)***********
+# nonce_reg = 00000000000000000000000000000000
+# **************************************************
+# ------------------(Update State)------------------
+# --------------MODE: ASCON_XOF--------------
+# -------------NEW ASCON FUNCTION START-------------
+# **************************************************
+# state_reg[0] = 00400c0000000000
+# state_reg[1] = 0000000000000000
+# state_reg[2] = 0000000000000000
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000000
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 00400c0000000000
+# state_reg[1] = 0000000000000000
+# state_reg[2] = 0000000000000000
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000000
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 616a56a31775be23
+# state_reg[1] = 616e9b693e7b218f
+# state_reg[2] = 94e5cbbf6bb9e11a
+# state_reg[3] = 6ee4c59b124cf3c9
+# state_reg[4] = 65ff84b7831a4748
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ada1e687f353b647
+# state_reg[1] = fa7a0fad9174d0fb
+# state_reg[2] = 95cfa681e3a38947
+# state_reg[3] = 7322121457ddb014
+# state_reg[4] = 539ca6a43e8afc1d
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ec34fd258a066d03
+# state_reg[1] = 4dda41fdfa691da3
+# state_reg[2] = 0a9b1a83d76d3b3b
+# state_reg[3] = 09f359cd3d1f7e8c
+# state_reg[4] = fae246c17d27657f
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b57e273b814cd416
+# state_reg[1] = 2b51042562ae2420
+# state_reg[2] = 66a3a7768ddf2218
+# state_reg[3] = 5aad0a7a8153650c
+# state_reg[4] = 4f3e0e32539493b6
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => b57e273b814cd416
+# selected_bd => 1111000022220000
+# new_state_o => a46f273ba36ed416
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 03519948b898e805
+# state_reg[1] = f0394680f104a4b7
+# state_reg[2] = ec7e0d88ede40cda
+# state_reg[3] = 7c1ba64fe03cc77e
+# state_reg[4] = 5958edad8e220fb6
+# ---------------------*****************-------------------------
+# *********(GET_NONCE)***********
+# nonce_reg = 00000000000000000000000000000000
+# **************************************************
+# ------------------(Update State)------------------
+# --------------MODE: ASCON_HASH--------------
+# -------------NEW ASCON FUNCTION START-------------
+# **************************************************
+# state_reg[0] = 00400c0000000100
+# state_reg[1] = 0000000000000000
+# state_reg[2] = 0000000000000000
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000000
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4a24735392d51a89
+# state_reg[1] = c850fe8a3976f31b
+# state_reg[2] = 40374aafee46f87f
+# state_reg[3] = 7948b9d2e802a88c
+# state_reg[4] = daa8007ab662b7b3
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 00400c0000000100
+# state_reg[1] = 0000000000000000
+# state_reg[2] = 0000000000000000
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000000
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 476a946146dd7355
+# state_reg[1] = c85b138c3f586699
+# state_reg[2] = e5cdd187a5b8e3ce
+# state_reg[3] = 4c063d7c5e05570c
+# state_reg[4] = 2445fee59a105e74
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f696aa6842adcfce
+# state_reg[1] = c74cc7b7dd7a5167
+# state_reg[2] = ea56d612feb28793
+# state_reg[3] = 699eef1e14b3001d
+# state_reg[4] = 3df64161b1b5814e
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = fcb4eb9f6fe1b663
+# state_reg[1] = ea63f8d3f8f534e8
+# state_reg[2] = c21428a636730a87
+# state_reg[3] = 131a5cae69929daf
+# state_reg[4] = 9ba4ca1a149a2554
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = e34a8e9d8cd75830
+# state_reg[1] = 665112523bd6ea06
+# state_reg[2] = 13ea98749ca2320d
+# state_reg[3] = 157d118169dcc212
+# state_reg[4] = db46cf1b4b07754c
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => e34a8e9d8cd75830
+# selected_bd => 3333000044440000
+# new_state_o => d0798e9dc8935830
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 8d1a27b5dbefba5f
+# state_reg[1] = 263c269fefa180c3
+# state_reg[2] = b90f219404d6bcf4
+# state_reg[3] = fcc893c302a96e45
+# state_reg[4] = 509e146ea76c7a1c
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ee9398aadb67f03d
+# state_reg[1] = 8bb21831c60f1002
+# state_reg[2] = b48a92db98d5da62
+# state_reg[3] = 43189921b8f8e3e8
+# state_reg[4] = 348fa5c9d525e140
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4519e74e67b2a040
+# state_reg[1] = 6d40ccb3f1489d91
+# state_reg[2] = 8d2c6c03205f9c5e
+# state_reg[3] = 609f75f5008a79e3
+# state_reg[4] = 229d87bc0b27ad63
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => ee9398aadb67f03d
+# selected_bd => 1ab3c589e3800000
+# new_state_o => f4205d2338e7f03d
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4e137d51e92e59d6
+# state_reg[1] = b9f7d0622c934ac5
+# state_reg[2] = c55db80c99e27a20
+# state_reg[3] = b6e79506ce75c23d
+# state_reg[4] = 8aa1923a5a53b6f8
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f3c12782eb0b156d
+# state_reg[1] = aa9e14ab49c9b7bb
+# state_reg[2] = 538a8481904facd8
+# state_reg[3] = da91b7d57dda1b7a
+# state_reg[4] = d3ba85a40049ea0f
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = e3d0986649671f2c
+# state_reg[1] = 485dfd4cfaa6815b
+# state_reg[2] = 195a20d61f5105e0
+# state_reg[3] = a650d4e7c755032c
+# state_reg[4] = 98cd76cda07f23c5
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4bff189f3d958ea4
+# state_reg[1] = d31dd09c9dffacfc
+# state_reg[2] = 3e509d41366a0e89
+# state_reg[3] = b54ebad4e5b96dd2
+# state_reg[4] = 60f389fc4cee8490
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f4eabc5d27b3e3b0
+# state_reg[1] = d9893be82ce51066
+# state_reg[2] = eeb5b732c37cf403
+# state_reg[3] = 475d9ff085f3fc06
+# state_reg[4] = 2e06523d44dc6620
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => f4eabc5d27b3e3b0
+# selected_bd => 4fcf816fb65763d3
+# new_state_o => bb253d3291e48063
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 6ff70913c382071f
+# state_reg[1] = 927dfad6eb33f4b1
+# state_reg[2] = fe699961adab13cb
+# state_reg[3] = 8e14bdc35404cd11
+# state_reg[4] = 18e4b136c4bd48d7
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 11d30c75de217f56
+# state_reg[1] = 0ee22d2bdac3db9c
+# state_reg[2] = 1bb2072c908b6cca
+# state_reg[3] = e53c9a3a8448b33d
+# state_reg[4] = 01b95d1e062256b8
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 38459d218f41332a
+# state_reg[1] = affc2db500f97b8c
+# state_reg[2] = c60e5eb0dd88089f
+# state_reg[3] = a9017387d0e5eeeb
+# state_reg[4] = 66a8db0810cefbbe
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b6cc09a5caae498f
+# state_reg[1] = 0faadc0162b3dd43
+# state_reg[2] = 5d49ff9f48ae4452
+# state_reg[3] = 2cf4d911d3a31f54
+# state_reg[4] = 09c6832360679ec8
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 78f3f54574a22e65
+# state_reg[1] = de097ca7da92815e
+# state_reg[2] = bade38fdd9da0ed5
+# state_reg[3] = 4243593b0ad7a97f
+# state_reg[4] = 0ddc500166efce1c
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 97d26750f143371c
+# state_reg[1] = 9752caad3ff8e65b
+# state_reg[2] = c9a221b019a09e65
+# state_reg[3] = 285920cebe23250c
+# state_reg[4] = 1804e846035eb7a3
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 2183d52492d3f6bd
+# state_reg[1] = 1bb9b17d694d7832
+# state_reg[2] = 4eb0219a2db7b2e3
+# state_reg[3] = 6fbc93a9c49217f3
+# state_reg[4] = 13fd04c30cad38c8
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 1e12c75ee0623026
+# state_reg[1] = 07d4f080f58fd50c
+# state_reg[2] = cb08859632d4c053
+# state_reg[3] = cd978d2d09a8f6bb
+# state_reg[4] = dc90eb50c6b80ed9
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => 1e12c75ee0623026
+# selected_bd => a38824bb6aac9780
+# new_state_o => bd9ae3e58acea7a6
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 77e2a091743e7a5b
+# state_reg[1] = a581dc71a138fb33
+# state_reg[2] = 0d86c098c248b04b
+# state_reg[3] = c1ad46cecb40e311
+# state_reg[4] = c43aaa290b3d856d
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = be51a58e2cbf60f1
+# state_reg[1] = 16a64442508b3fb1
+# state_reg[2] = 80d12cbb1de7ef0b
+# state_reg[3] = 511dcb823643c935
+# state_reg[4] = 54c62e420adb5d52
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 954cf6764b16580c
+# state_reg[1] = 960fcb353d110fa9
+# state_reg[2] = f72e0a5409e02f25
+# state_reg[3] = 0e489156e169ec0e
+# state_reg[4] = 3316a0bd7a6b7a08
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 96b44dc6edd18767
+# state_reg[1] = 201ef996a8244f85
+# state_reg[2] = f48e6f31db096e01
+# state_reg[3] = 4867a003504aec9f
+# state_reg[4] = 76da325ac9861594
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 2542a5d9ef546d8f
+# state_reg[1] = b81a93b1287d3be8
+# state_reg[2] = 9bea4ac360bb4faa
+# state_reg[3] = 85a7ec4effcbace7
+# state_reg[4] = 6460ca5bf383b930
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = d9ef8ebc8d9f3df9
+# state_reg[1] = f96e67481b4a8288
+# state_reg[2] = 91e6dedaed9e48d0
+# state_reg[3] = f2ba15844f4cb30c
+# state_reg[4] = caed946408098ee4
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 3b67860fad2ac5c5
+# state_reg[1] = 21de57fb022d2b46
+# state_reg[2] = ce22a2b70f7b796a
+# state_reg[3] = 5dc8ab01e71e0920
+# state_reg[4] = 6e9b188f6bd12b4d
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f7b33d788d70b3d1
+# state_reg[1] = bd0256e380d17859
+# state_reg[2] = 4e76ca6a37a1bfdd
+# state_reg[3] = 27f5a84de01db875
+# state_reg[4] = eab3ca7e2d90b59e
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => f7b33d788d70b3d1
+# selected_bd => aabbddcca38824bb
+# new_state_o => 5d08e0b42ef8976a
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 9ca14d2fdfd58e84
+# state_reg[1] = 6a88b1dd4124c1e7
+# state_reg[2] = fc7c147bfd77dff1
+# state_reg[3] = 2f827216e347e44d
+# state_reg[4] = 8fda620fa1803e42
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 19376fbca38be581
+# state_reg[1] = d60d1b5cf2c44928
+# state_reg[2] = ddedeeaa44a3e0a1
+# state_reg[3] = c070361890e24a49
+# state_reg[4] = db4cc961084bd5b7
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a725af9f6cc895a9
+# state_reg[1] = 543d2ce316d1b894
+# state_reg[2] = 878b409b7349cfaa
+# state_reg[3] = eee88b2ba7d5df28
+# state_reg[4] = d91b69221a7a4b86
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ede5e057c07ba4b5
+# state_reg[1] = b7d601df8b970d49
+# state_reg[2] = 13be4932e0b53c07
+# state_reg[3] = 296cac283aac3135
+# state_reg[4] = 6d8dae3011f83a49
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 838dff0ee9071bfb
+# state_reg[1] = a1d48ec7d6b5172a
+# state_reg[2] = 908b87042951e75b
+# state_reg[3] = 4a9a2f628a7ecd02
+# state_reg[4] = f0c972f1bbffe6b2
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = cffa606a09d68520
+# state_reg[1] = 55e636a2ef0a5380
+# state_reg[2] = 63a8ad1c745d7072
+# state_reg[3] = b0b08f0a1dcffa47
+# state_reg[4] = cbc6bee26ef5d4ec
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 8c8c5b91d933ccaa
+# state_reg[1] = f682f3a49ef04100
+# state_reg[2] = c79a5c6dbd31d4b9
+# state_reg[3] = 268f1b5f5c905737
+# state_reg[4] = 2e32c249c7df5dd0
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ff69e5aa54c238c9
+# state_reg[1] = 9d2ba47f85701aad
+# state_reg[2] = 749503469ed9c5c4
+# state_reg[3] = 6b66c03edaeef861
+# state_reg[4] = 9783683cb4dcf0d7
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => ff69e5aa54c238c9
+# selected_bd => 6aac97804fcf816f
+# new_state_o => 95c5722a1b0db9a6
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ee37c5ed131cc75f
+# state_reg[1] = 70f481ba7db491d1
+# state_reg[2] = abc38a0918c0dc81
+# state_reg[3] = 785acb5475e50279
+# state_reg[4] = 9a668f0987d3f6c9
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = cfd0058d98084e02
+# state_reg[1] = d532126a749390c7
+# state_reg[2] = 6f8aa33e5075fedf
+# state_reg[3] = 53dbec8124d3e32d
+# state_reg[4] = 91cf36c98a489e22
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ab1cb51ba0bc1626
+# state_reg[1] = 570e32ee58284a02
+# state_reg[2] = 1174b7ae114db0a0
+# state_reg[3] = a622e15b15463348
+# state_reg[4] = 905c0f12d6fbea41
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 11d30c75
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a0968e8fb92f983e
+# state_reg[1] = 483bf799a9c55075
+# state_reg[2] = aec6dcef371e6cd2
+# state_reg[3] = 66ebeb1e35bd18d6
+# state_reg[4] = 33633365d1033158
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = de217f56
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 122d77fa8b3649a0
+# state_reg[1] = 4ac81f1f28a1c889
+# state_reg[2] = c255c25d3e637091
+# state_reg[3] = 03e2604c1bd3e145
+# state_reg[4] = e4eb7bcfdbcd13c6
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = be51a58e
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ee899d0df598c9bd
+# state_reg[1] = 13279789f683c667
+# state_reg[2] = 48368f279e29c023
+# state_reg[3] = 764760aabfdd33f4
+# state_reg[4] = 2dd0d19a1f2c2acd
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => ee899d0df598c9bd
+# selected_bd => b65763d3a38824bb
+# new_state_o => 58defede5610ed06
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 2cbf60f1
+# -----------------*****************--------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 19376fbc
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 86af1d3a9adeaf10
+# state_reg[1] = caced8562905e1f2
+# state_reg[2] = 13528d2c92dd1a0e
+# state_reg[3] = 6ded634700dec3ac
+# state_reg[4] = d11171a7cb38ba1f
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = a38be581
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 48a7902caeb83c60
+# state_reg[1] = 8d4c129a36654fc0
+# state_reg[2] = 9d0dde3891c65409
+# state_reg[3] = 1e905dd49b5a9855
+# state_reg[4] = 5eb1df92aebeb270
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = cfd0058d
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 46348b607cbe1067
+# state_reg[1] = eace1017791dc677
+# state_reg[2] = a0a3647d5d76475a
+# state_reg[3] = cd38c3f71a405016
+# state_reg[4] = 750123c3f8a23e24
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 98084e02
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 25bf1339647bd9b7
+# state_reg[1] = bdc8392445183952
+# state_reg[2] = 23cc092fe6446c94
+# state_reg[3] = c3297fed96838d52
+# state_reg[4] = 533365281be1f760
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => 25bf1339647bd9b7
+# selected_bd => 6aac9780aabbddcc
+# new_state_o => 4f1384b9cec0047b
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 82d844a4d7e806fd
+# state_reg[1] = d9c76445e2d6b4fb
+# state_reg[2] = d5b1dcad94b423a7
+# state_reg[3] = d01378b701b1ffbc
+# state_reg[4] = aeab339e8bbe2ed1
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 498dba1f941a0171
+# state_reg[1] = e81edef03f1f6c92
+# state_reg[2] = 7c66d412b0617323
+# state_reg[3] = 2a00d5f991dd0b1c
+# state_reg[4] = 2eff53006ecfdb1c
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 2379cb5ef6bca71b
+# state_reg[1] = d403523671e55195
+# state_reg[2] = 51b37cd25301a248
+# state_reg[3] = acf339f36146da9e
+# state_reg[4] = 148f90e0ecb98496
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 145cee06b7cf3c72
+# state_reg[1] = c5335fc057cd411a
+# state_reg[2] = 53f97b14550da771
+# state_reg[3] = be0438f3f2e28834
+# state_reg[4] = 3e78efc7763440a5
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = bfd6f2b3769bcdcb
+# state_reg[1] = 3f5f37f7e907098b
+# state_reg[2] = d3e65c3ebe2ad29d
+# state_reg[3] = 335e74f4c4e230d4
+# state_reg[4] = 3cd1eeb9de83b3ae
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 00778c9033c489c8
+# state_reg[1] = 6ba120f3caa1fb1e
+# state_reg[2] = 925d2cfafd740b67
+# state_reg[3] = 49ea786fd9fe7090
+# state_reg[4] = a876f8d5d06e0409
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 330aa81ef82bf88c
+# state_reg[1] = 4a0a75f0ebf306f9
+# state_reg[2] = 198240b9f1a96013
+# state_reg[3] = b3cdd5bc1d1dfb1b
+# state_reg[4] = afd976202044bd8f
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 1c64d36cca51f2bc
+# state_reg[1] = f4c2cc583779b80a
+# state_reg[2] = a29579c496fbfaab
+# state_reg[3] = 5a3e0d54f6a7615d
+# state_reg[4] = 85a7ef3e55c2ed2c
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 52879a0c1282dc51
+# state_reg[1] = 1c829cbb3e45cf47
+# state_reg[2] = a98f8157d500d9ec
+# state_reg[3] = 2e99f2f684959045
+# state_reg[4] = a007a835bff957d7
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a807ee82f5d8c27b
+# state_reg[1] = 7c96afcd2b05b21b
+# state_reg[2] = e4f63e9715bb59b8
+# state_reg[3] = 6c83b33653e53705
+# state_reg[4] = c469d79d450f15a2
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a91747d8daf3d714
+# state_reg[1] = 9007cf2d377ce28b
+# state_reg[2] = 125a0d40eefb34d1
+# state_reg[3] = 0738b568dc7b1a60
+# state_reg[4] = 0e62ae7f06576e08
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 18cf7a1f2d437cd5
+# state_reg[1] = b9c8398021c84eda
+# state_reg[2] = a2f9de81938ee1aa
+# state_reg[3] = 535f8506865eaf7d
+# state_reg[4] = 709549b5dc0c96d3
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f12b9c204edd071a
+# state_reg[1] = 2b332ced03e5d3ea
+# state_reg[2] = 89284767ab540856
+# state_reg[3] = a99000ced8300a0b
+# state_reg[4] = 42c13190a9507097
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ded08f4a2442f46d
+# state_reg[1] = 8efb0bc8ed34de36
+# state_reg[2] = d120273614ccb2b2
+# state_reg[3] = 601d6a952c195b0a
+# state_reg[4] = 486e0129472deb95
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4ad691257a8dd4d8
+# state_reg[1] = 12195604af3d3ee8
+# state_reg[2] = bb4e0e28474ffe00
+# state_reg[3] = e2a5ec63d782670f
+# state_reg[4] = 3aac6f724e9590da
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 40e90dc05359e494
+# state_reg[1] = ffbd05a4153887bb
+# state_reg[2] = f4f3fdc1f12795ed
+# state_reg[3] = 5e3771620b24e716
+# state_reg[4] = e9076e562bf01a1b
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = d00b4fa81df284c3
+# state_reg[1] = a7253522da6dd127
+# state_reg[2] = a4d72aed56fea962
+# state_reg[3] = 339980f59782fbb0
+# state_reg[4] = bad7daed9b670bd9
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 770350a516f6559c
+# state_reg[1] = 433009eabc791411
+# state_reg[2] = 72fb6fa5baae5245
+# state_reg[3] = 5e2588fd3f79e6b6
+# state_reg[4] = 334b1ea2ce3967e0
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 9066aaf5a0b31b20
+# state_reg[1] = 9f5e78c79cceb75f
+# state_reg[2] = edba68db9cda0c7e
+# state_reg[3] = 014823c02d953cf9
+# state_reg[4] = 3909a2cc41a85cbc
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b7413214f272c779
+# state_reg[1] = 4d0b529d5c201419
+# state_reg[2] = 6a4aa5efb4063d03
+# state_reg[3] = 743af32d8806cb4a
+# state_reg[4] = c7b44cd0b92cef14
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = d4937c0103200d89
+# state_reg[1] = 642a1c562230b391
+# state_reg[2] = 4caccc8bdbe4b155
+# state_reg[3] = f35fd3753485bf76
+# state_reg[4] = 2f5cf92cd3ce1c4f
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4a45d1ca0cca69fe
+# state_reg[1] = 332ebcaaba2335fb
+# state_reg[2] = b86d36c180e2574a
+# state_reg[3] = 92d89266ae9caca4
+# state_reg[4] = 2448705bfeed830f
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 29bdc65c95c1d5f7
+# state_reg[1] = 16ba0e8159e6d5f5
+# state_reg[2] = f86645dfa4133bf6
+# state_reg[3] = dd5edb6f64ff1e55
+# state_reg[4] = 1a9257ea132c263a
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = eead01acb4e84ec8
+# state_reg[1] = cbd20ba6ae467649
+# state_reg[2] = 4456ef6f7918ed63
+# state_reg[3] = 390e34d03fd4e067
+# state_reg[4] = f960381b7a3d352b
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 7052d6c9f8055a81
+# state_reg[1] = 35e54ba58ca5a07f
+# state_reg[2] = 3282a7158fa91a4e
+# state_reg[3] = 0956be75b47a2400
+# state_reg[4] = dd6874b2d792eb75
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = cf674153ce3a21f5
+# state_reg[1] = cea7ddc5cb040f6d
+# state_reg[2] = 8d707f9e8cb22ba0
+# state_reg[3] = 171df8bc53731645
+# state_reg[4] = 9d9708b4838c006e
+# ---------------------*****************-------------------------
+# *********(GET_NONCE)***********
+# nonce_reg = 00000000000000000000000000000000
+# **************************************************
+# ------------------(Update State)------------------
+# --------------MODE: ASCON_XOF--------------
+# -------------NEW ASCON FUNCTION START-------------
+# **************************************************
+# state_reg[0] = 00400c0000000000
+# state_reg[1] = 0000000000000000
+# state_reg[2] = 0000000000000000
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000000
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ca107cba68e22629
+# state_reg[1] = b808a75446919510
+# state_reg[2] = af5a136a18b806e4
+# state_reg[3] = 7efd61e9f8f25280
+# state_reg[4] = 1a8ac98d08bd5511
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 00400c0000000000
+# state_reg[1] = 0000000000000000
+# state_reg[2] = 0000000000000000
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000000
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 616a56a31775be23
+# state_reg[1] = 616e9b693e7b218f
+# state_reg[2] = 94e5cbbf6bb9e11a
+# state_reg[3] = 6ee4c59b124cf3c9
+# state_reg[4] = 65ff84b7831a4748
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 5845f5f02583068c
+# state_reg[1] = d3d2fede2e317175
+# state_reg[2] = eef8355179aabf41
+# state_reg[3] = 5d8e6d9ec18e2804
+# state_reg[4] = c33152fe7980f59d
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ada1e687f353b647
+# state_reg[1] = fa7a0fad9174d0fb
+# state_reg[2] = 95cfa681e3a38947
+# state_reg[3] = 7322121457ddb014
+# state_reg[4] = 539ca6a43e8afc1d
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ec34fd258a066d03
+# state_reg[1] = 4dda41fdfa691da3
+# state_reg[2] = 0a9b1a83d76d3b3b
+# state_reg[3] = 09f359cd3d1f7e8c
+# state_reg[4] = fae246c17d27657f
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 91b0658ce68d147d
+# state_reg[1] = 1165e04863b1ba37
+# state_reg[2] = 7e9fc6364dc6c798
+# state_reg[3] = ba2f596ef0cc3076
+# state_reg[4] = 6bf1460ca53b334e
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b57e273b814cd416
+# state_reg[1] = 2b51042562ae2420
+# state_reg[2] = 66a3a7768ddf2218
+# state_reg[3] = 5aad0a7a8153650c
+# state_reg[4] = 4f3e0e32539493b6
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = dac1a49e3ff156fb
+# state_reg[1] = d5259654b74f6b0a
+# state_reg[2] = 50e6f0c32e542d5d
+# state_reg[3] = 3b70612cb0e36f4e
+# state_reg[4] = 40d30b9e06d870d6
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => b57e273b814cd416
+# selected_bd => 1111000022220000
+# new_state_o => a46f273ba36ed416
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = afed7d4ea7a6fd40
+# state_reg[1] = f5a0b36b08cc7e17
+# state_reg[2] = b016be75a6313228
+# state_reg[3] = f21aa8c5548e8f22
+# state_reg[4] = d7aa41924066b077
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 03519948b898e805
+# state_reg[1] = f0394680f104a4b7
+# state_reg[2] = ec7e0d88ede40cda
+# state_reg[3] = 7c1ba64fe03cc77e
+# state_reg[4] = 5958edad8e220fb6
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = d06e825a4f47e428
+# state_reg[1] = dbcb1b8750f10176
+# state_reg[2] = fadba5c0ed62961f
+# state_reg[3] = 60abffecba410dd8
+# state_reg[4] = df750b9e2c9fd6a0
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4a24735392d51a89
+# state_reg[1] = c850fe8a3976f31b
+# state_reg[2] = 40374aafee46f87f
+# state_reg[3] = 7948b9d2e802a88c
+# state_reg[4] = daa8007ab662b7b3
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 145cee06
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f696aa6842adcfce
+# state_reg[1] = c74cc7b7dd7a5167
+# state_reg[2] = ea56d612feb28793
+# state_reg[3] = 699eef1e14b3001d
+# state_reg[4] = 3df64161b1b5814e
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = b7cf3c72
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = e34a8e9d8cd75830
+# state_reg[1] = 665112523bd6ea06
+# state_reg[2] = 13ea98749ca2320d
+# state_reg[3] = 157d118169dcc212
+# state_reg[4] = db46cf1b4b07754c
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 1c64d36c
+# -----------------*****************--------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => e34a8e9d8cd75830
+# selected_bd => 3333000044440000
+# new_state_o => d0798e9dc8935830
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = ca51f2bc
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4519e74e67b2a040
+# state_reg[1] = 6d40ccb3f1489d91
+# state_reg[2] = 8d2c6c03205f9c5e
+# state_reg[3] = 609f75f5008a79e3
+# state_reg[4] = 229d87bc0b27ad63
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 18cf7a1f
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 4e137d51e92e59d6
+# state_reg[1] = b9f7d0622c934ac5
+# state_reg[2] = c55db80c99e27a20
+# state_reg[3] = b6e79506ce75c23d
+# state_reg[4] = 8aa1923a5a53b6f8
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 2d437cd5
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = e3d0986649671f2c
+# state_reg[1] = 485dfd4cfaa6815b
+# state_reg[2] = 195a20d61f5105e0
+# state_reg[3] = a650d4e7c755032c
+# state_reg[4] = 98cd76cda07f23c5
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 40e90dc0
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f4eabc5d27b3e3b0
+# state_reg[1] = d9893be82ce51066
+# state_reg[2] = eeb5b732c37cf403
+# state_reg[3] = 475d9ff085f3fc06
+# state_reg[4] = 2e06523d44dc6620
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 5359e494
+# -----------------*****************--------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => f4eabc5d27b3e3b0
+# selected_bd => 4fcf00004fcf816f
+# new_state_o => bb25bc5d687c62df
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = b7413214
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = d30cc8928352b0e6
+# state_reg[1] = 36c17c6034271490
+# state_reg[2] = 6bf97a6318175f57
+# state_reg[3] = 481153d67e3f9ded
+# state_reg[4] = 116dcf2d2417accf
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = f272c779
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b0c97ce510680a13
+# state_reg[1] = 07442cadfe640e96
+# state_reg[2] = 0a60ae073a9dda1d
+# state_reg[3] = bd21fb55ba3906ea
+# state_reg[4] = 9bdf4e1cf1e00283
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = eead01ac
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a4c94279e23952f0
+# state_reg[1] = fae4a4367639ad23
+# state_reg[2] = ae17e9c045394b9d
+# state_reg[3] = a9fe2be5885a3e17
+# state_reg[4] = 84c7601a541b25de
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = b4e84ec8
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b336607384fc465b
+# state_reg[1] = 57a7c51eeda3dd12
+# state_reg[2] = 2b10d6237ff0799f
+# state_reg[3] = d78ed200fa5cbe91
+# state_reg[4] = 5026a5efba15166a
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 5845f5f0
+# -----------------*****************--------------
+# ----------COMPUTE__AD----------
+# --------------HASH---------------
+# msb_state => b336607384fc465b
+# selected_bd => b65763d3a3888000
+# new_state_o => 056103a02774c65b
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 2583068c
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 441a1dc23da6f8ba
+# state_reg[1] = 19edcc6ce2c7c9ed
+# state_reg[2] = ad11023088215c97
+# state_reg[3] = 960df7238065ab86
+# state_reg[4] = 1c7d1c0fbe73aafd
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = d06e825a
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ee7a20f070db7f37
+# state_reg[1] = 6a9d1893f35d4735
+# state_reg[2] = 322d0a3dfd35ad2f
+# state_reg[3] = 9c8298c7daba7d97
+# state_reg[4] = c1b6eebf1f450bc2
+# ---------------------*****************-------------------------
+# *********(GET_DATA)--KEY***********
+# new_key_reg = 0000000000000000000000000000000000000000
+# run_key_reg = 00000000222244441111aaaa44445555aabbeeff
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 4f47e428
+# -----------------*****************--------------
+# *********(GET_NONCE)***********
+# nonce_reg = 00000000000000000000000000000002
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 167fa55e7d7d56c1
+# state_reg[1] = 9ad41ec964a2facf
+# state_reg[2] = cca54ef82feeb70a
+# state_reg[3] = ae440da4737277fa
+# state_reg[4] = a7f988deca9d24d8
+# ---------------------*****************-------------------------
+# **************************************************
+# ------------------(Update State)------------------
+# --------------MODE: ASCON_128A--------------
+# -------------NEW ASCON FUNCTION START-------------
+# **************************************************
+# state_reg[0] = 80800c0800000000
+# state_reg[1] = 222244441111aaaa
+# state_reg[2] = 44445555aabbeeff
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000002
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 80800c0800000000
+# state_reg[1] = 222244441111aaaa
+# state_reg[2] = 44445555aabbeeff
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000002
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = c050f7a6e6594411
+# state_reg[1] = 47ef65ff39a77f88
+# state_reg[2] = 3343e48ee0f170a2
+# state_reg[3] = 0064ebb8d524b4cb
+# state_reg[4] = 97c08e3d61090cee
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 0c61a86e0b13d500
+# state_reg[1] = f184b86e5265d111
+# state_reg[2] = 07a22cc699d3701f
+# state_reg[3] = 0d3cfc7f1157884b
+# state_reg[4] = 64cd9ffea6bebc11
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = ba76b066d0e693db
+# state_reg[1] = 524555d70c147b67
+# state_reg[2] = 8d2004e20178d4fe
+# state_reg[3] = 0cc862cb75ea08ed
+# state_reg[4] = 55731d441e6a6c8e
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 0af351833c872472
+# state_reg[1] = 84036dec13426dae
+# state_reg[2] = ce0f629e2e9c2fe7
+# state_reg[3] = 8b64d61a04cefc42
+# state_reg[4] = 04707509b791039e
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 586b02ebf65fa6f1
+# state_reg[1] = cbfd868f89c94316
+# state_reg[2] = f3bb15f7af449da0
+# state_reg[3] = e8b421de9f11de6a
+# state_reg[4] = ca4a45103557fab2
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 43327919e5e1b4de
+# state_reg[1] = 2c7f1b23b37c97ae
+# state_reg[2] = 575c7acde0dbf355
+# state_reg[3] = 9c9279bbd465c547
+# state_reg[4] = 29a4d5a696fbf031
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 454a922479a215f9
+# state_reg[1] = 740c0e73dcd7a3ba
+# state_reg[2] = c370b94f500f7011
+# state_reg[3] = f3c6a76d902e6711
+# state_reg[4] = 9e8d7893948134ec
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 0421ae6bb55b6ab9
+# state_reg[1] = b7d8172dc4a780b0
+# state_reg[2] = 2141261c3f787f52
+# state_reg[3] = 2aa0a71e51b1bc4f
+# state_reg[4] = 6cb4a10213cf2bf4
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 6e971924a01addff
+# state_reg[1] = de8ea17056b88ed9
+# state_reg[2] = 96897c872c211945
+# state_reg[3] = 841b1293383f788e
+# state_reg[4] = 37de382f87bbf1a4
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = d096a2fe52b5a57a
+# state_reg[1] = 7aeba6d82c34febd
+# state_reg[2] = 7d65dadd9f56ab6b
+# state_reg[3] = 71ebfc84ab0c33ed
+# state_reg[4] = d3636961f0295f81
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 1262c6ec83c597e7
+# state_reg[1] = b4e79f192f2348d6
+# state_reg[2] = 7569e8b365ebe079
+# state_reg[3] = aaf2dede2e8b8f38
+# state_reg[4] = 5a1a12f72a86f566
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => 1262c6ec83c597e7
+# selected_bd => 1ab3c589e3e64ec6
+# new_state_o => 08d103656023d921
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 48d98791cfb7ea3c
+# state_reg[1] = 4f567f19346288bb
+# state_reg[2] = a86ef9e2611e187d
+# state_reg[3] = 2961c581e7a94945
+# state_reg[4] = 840882248327cc56
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => b4e79f192f2348d6
+# selected_bd => 1ab3c589e3e64ec6
+# new_state_o => ae545a90ccc50610
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = edf163ad8e899cff
+# state_reg[1] = 499a42cd630e8d6b
+# state_reg[2] = eacdc4465c114302
+# state_reg[3] = 81b1e443ffd1f235
+# state_reg[4] = 76253dc5295c6b11
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = c25f98d8176c9cc7
+# state_reg[1] = a197af57ffc80b20
+# state_reg[2] = 45ab4593aa138c45
+# state_reg[3] = 3a1bbc924ba02fea
+# state_reg[4] = c0bffbb39c691042
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = f593be9b310fc4f6
+# state_reg[1] = 2e01049b9d2f22d4
+# state_reg[2] = 1a62db3a8c281900
+# state_reg[3] = dfb2912b8a9a7a3c
+# state_reg[4] = 472faa90ba3f38a4
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 38dd3e83c47d1387
+# state_reg[1] = 652d11ebc7db0cb8
+# state_reg[2] = 2225a7fa3d624752
+# state_reg[3] = 399b459c7c2cf62d
+# state_reg[4] = 36d4cb08b4632fba
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = a96fce8871d685c5
+# state_reg[1] = f03b547a528f8d31
+# state_reg[2] = 91cee337eb15d03b
+# state_reg[3] = 0555ea7319e3e528
+# state_reg[4] = 97da89052584cc7c
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 4038b76520544675
+# state_reg[1] = d8f11c0953314362
+# state_reg[2] = 342d3aac178c32ae
+# state_reg[3] = 8aff251b57a5f6d2
+# state_reg[4] = 476becf31229a704
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 71a54dcaf996b424
+# state_reg[1] = bf4953c16c31fef2
+# state_reg[2] = bf747d51eb7dad37
+# state_reg[3] = 3d2de3bae59eb742
+# state_reg[4] = 5e7cda1e45b82d3e
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 7b30717a92de04c9
+# state_reg[1] = 6974e3567f6f34c6
+# state_reg[2] = d983c01de0d906c5
+# state_reg[3] = 760a6afd8e6c569a
+# state_reg[4] = e0564a6c9c3cb8e9
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => 7b30717a92de04c9
+# selected_bd => 1fcc800000000000
+# new_state_o => 64fcf17a92de04c9
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 43dfa7e67c069c3a
+# state_reg[1] = ea8a5dfd044b75b9
+# state_reg[2] = 0b238b32504124ab
+# state_reg[3] = b0a39740ca6ac05c
+# state_reg[4] = c46680357e54e2b6
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => 6974e3567f6f34c6
+# selected_bd => 0000000000000000
+# new_state_o => 6974e3567f6f34c6
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a721367920287fa6
+# state_reg[1] = f2cf5d4eeeb43408
+# state_reg[2] = 0a48e14a4736bbd3
+# state_reg[3] = f0f57906475e2e10
+# state_reg[4] = 1aadc8687c559a93
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b726b7de8391d8bd
+# state_reg[1] = 05a4c90560b23aec
+# state_reg[2] = 6cc26334581b4fcb
+# state_reg[3] = 77b143f060e2ee12
+# state_reg[4] = c250a7bea2fd2e29
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 31d1e71a7cc206a2
+# state_reg[1] = f1922399cf262943
+# state_reg[2] = 6be37b560001016f
+# state_reg[3] = 7781bb241e76dd73
+# state_reg[4] = 6da4ad894d9b5cd0
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 56b3059661acd954
+# state_reg[1] = 90b4e284525c5150
+# state_reg[2] = 257e5f15340551a5
+# state_reg[3] = 5febe12c49885632
+# state_reg[4] = 4fad356abfcbd623
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 71b143ff42e09de2
+# state_reg[1] = 904b771aebd47f5e
+# state_reg[2] = 922ebbf59613b033
+# state_reg[3] = 05b0db302a5a72dc
+# state_reg[4] = 557b1605eb3d32b8
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = a90e6bc08cd3978b
+# state_reg[1] = bd51e85b0be97425
+# state_reg[2] = 6f4fc5896fa6ae88
+# state_reg[3] = 4f195cb2f11a07cd
+# state_reg[4] = d295dce83e039690
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 05fcf112f8d29ee5
+# state_reg[1] = a9cadfebf7ca254f
+# state_reg[2] = 84d69fcbbdd959c6
+# state_reg[3] = f18125f231764e92
+# state_reg[4] = 5966227348f7251e
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = f9fd82e95f533512
+# state_reg[1] = c3266f7e32731b74
+# state_reg[2] = 95b21415558c0578
+# state_reg[3] = af4fd8ea48da4ef4
+# state_reg[4] = 395abd479301ac65
+# ---------------------*****************-------------------------
+# ---------(Update State)-AFTER INIT_ADD_KEY-------
+# state_reg[0] = f9fd82e95f533512
+# state_reg[1] = c3266f7e32731b74
+# state_reg[2] = 95b21415558c0578
+# state_reg[3] = af4fd8ea48da4ef4
+# state_reg[4] = 395abd479301ac65
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = cf4d375e1d043902
+# state_reg[1] = 8e39e0e01f6d9ec3
+# state_reg[2] = 05719f3b7dd442f0
+# state_reg[3] = 9d58b8280ac6952c
+# state_reg[4] = a789a63cf316a892
+# ---------------------*****************-------------------------
+# ---------(Update State)-AFTER INIT_ADD_KEY-------
+# state_reg[0] = f9fd82e95f533512
+# state_reg[1] = c3266f7e32731b74
+# state_reg[2] = 95b21415558c0578
+# state_reg[3] = af4fd8ea48da4ef4
+# state_reg[4] = 395abd479301ac64
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => f9fd82e95f533512
+# selected_bd => 4fcf816fb65763d3
+# xor_result => b6320386e90456c1
+# (enc)new_state_o => b6320386e90456c1
+# bd_o => 4f47e428
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = e41ded87bebba3f4
+# state_reg[1] = 36d9cb331eb86e12
+# state_reg[2] = d9a970dda88ea0b8
+# state_reg[3] = f6ea158d3a4accce
+# state_reg[4] = 2b7c967a92af7ab1
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => c3266f7e32731b74
+# selected_bd => a38824bb6aac9780
+# xor_result => 60ae4bc558df8cf4
+# (enc)new_state_o => 60ae4bc558df8cf4
+# bd_o => 4f47e428
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 5e0d54d25dc8df07
+# state_reg[1] = 83b3262e44791d5b
+# state_reg[2] = 0760ca16c4681d95
+# state_reg[3] = b3c07af20b8e5995
+# state_reg[4] = 10118d2f2696df98
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 0e7f53577b80b34a
+# state_reg[1] = 526efc622240d0d7
+# state_reg[2] = c876df76bb52deb9
+# state_reg[3] = 7525659156b1f9ab
+# state_reg[4] = abfa600def23a43b
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 564489f5aaa57684
+# state_reg[1] = a57bec3897f47fb5
+# state_reg[2] = f19c806d5c4ef54b
+# state_reg[3] = 8f1bd4bfca1769ee
+# state_reg[4] = 2a3179a92ba4c576
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 79512f9d88839d19
+# state_reg[1] = d9a8b9d3f60b1341
+# state_reg[2] = 27001d267523f257
+# state_reg[3] = 5269ee7528a67745
+# state_reg[4] = c2f01844e68130a2
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 1c0dfdf167b7f736
+# state_reg[1] = d01565b26c0a82ee
+# state_reg[2] = 13d8d50f377e3fe9
+# state_reg[3] = 3c432c8ec13fbf4c
+# state_reg[4] = bb89613dc9b31831
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = d8c8056c40018d96
+# state_reg[1] = 1f71e488495f76ed
+# state_reg[2] = 4a896fdf86dbe531
+# state_reg[3] = 33342812b8c38279
+# state_reg[4] = b47633ea0684faf5
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 1788a3f4de3d8e8d
+# state_reg[1] = 99e1cf94ad55700b
+# state_reg[2] = 0f2113d64ba659d0
+# state_reg[3] = 455ff167c6f01e38
+# state_reg[4] = 4d8a4b0be5ea801f
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 6301c68320c4e429
+# state_reg[1] = 0eaed18c8872b9ef
+# state_reg[2] = ea211e73155671ce
+# state_reg[3] = 0ba6c0ad83b9ba24
+# state_reg[4] = 11bd9801f344ab95
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => 6301c68320c4e429
+# selected_bd => 4fcf816fb65763d3
+# xor_result => 2cce47ec969387fa
+# (enc)new_state_o => 2cce47ec969387fa
+# bd_o => 4f47e428
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = c050f7a6
+# -----------------*****************--------------
+# ----------COMPUTE__TEXT----------
+# msb_state => 0eaed18c8872b9ef
+# selected_bd => a38824bb6aac9780
+# xor_result => ad26f537e2de2e6f
+# (enc)new_state_o => ad26f537e2de2e6f
+# bd_o => 4f47e428
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = e6594411
+# -----------------*****************--------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = d096a2fe
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 59201509b70eb000
+# state_reg[1] = 02437a7d95bf3639
+# state_reg[2] = 181e0b917938fe17
+# state_reg[3] = b03b941a3444db24
+# state_reg[4] = e7e56cb35fdaa561
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 52b5a57a
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 20e8ed4a358cebda
+# state_reg[1] = 012572d525d8cad4
+# state_reg[2] = 8083daafbaf03989
+# state_reg[3] = 3a472c088f2dc9f3
+# state_reg[4] = b0056f4f0604ce00
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 38dd3e83
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 0f32c63019372e22
+# state_reg[1] = 2e3a4bb0a05cd932
+# state_reg[2] = 6fc565aa91109b81
+# state_reg[3] = d18807d458cafed1
+# state_reg[4] = f6c1534b3aa0d7ed
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = c47d1387
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 7fd1e240df42942d
+# state_reg[1] = c57e800ebccfcaef
+# state_reg[2] = 5eea851ff20e52c8
+# state_reg[3] = 8c93f8bcaa500ff1
+# state_reg[4] = 60d6a40e111854ed
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => 7fd1e240df42942d
+# selected_bd => aabb0011a38824bb
+# xor_result => d56ae2517ccab096
+# (enc)new_state_o => d56ae2517ccab096
+# bd_o => 4f47e428
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = b726b7de
+# -----------------*****************--------------
+# ----------COMPUTE__TEXT----------
+# msb_state => c57e800ebccfcaef
+# selected_bd => 5555555533333333
+# xor_result => 902bd55b8ffcf9dc
+# (enc)new_state_o => 902bd55b8ffcf9dc
+# bd_o => 4f47e428
+# ----------**********-----------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 8391d8bd
+# -----------------*****************--------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = e41ded87
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 35eb2fe0292b7035
+# state_reg[1] = 929ce0b9c0e9333a
+# state_reg[2] = a7c0c31b2dd6f956
+# state_reg[3] = d873dfa232f438d2
+# state_reg[4] = ca38cc797073d030
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = bebba3f4
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = fc4533b6a0cd412a
+# state_reg[1] = 1e4b65874fc701a3
+# state_reg[2] = bfa80c9085a5bb4d
+# state_reg[3] = 67d5f846734b1fe2
+# state_reg[4] = 5a95eab97a01e4a1
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = 1788a3f4
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = f93fd3f8f613f611
+# state_reg[1] = 1c0878fb626944bd
+# state_reg[2] = f81b33f31f25672e
+# state_reg[3] = 2730fab2561745d5
+# state_reg[4] = f8984eb69c2b0c17
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_HASH
+# VLD_BYTES => f
+# DATA_O = de3d8e8d
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = e1df60597423ca0a
+# state_reg[1] = 997bc118f7269cc0
+# state_reg[2] = b3f4b9729883cfda
+# state_reg[3] = dd35a133b4a47577
+# state_reg[4] = 4b01259b9a7d804e
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => e1df60597423ca0a
+# selected_bd => 2222800000000000
+# xor_result => c3fde0597423ca0a
+# (enc)new_state_o => c3fde0597423ca0a
+# bd_o => 4f47e428
+# ----------**********-----------
+# ----------COMPUTE__TEXT----------
+# msb_state => 997bc118f7269cc0
+# selected_bd => 0000000000000000
+# xor_result => 997bc118f7269cc0
+# (enc)new_state_o => 997bc118f7269cc0
+# bd_o => 4f47e428
+# ----------**********-----------
+# ---------(Update State) BEFORE FINAL PERMUTATION__AFTER ADD KEY ---------
+# state_reg[0] = c3fde0597423ca0a
+# state_reg[1] = 997bc118f7269cc0
+# state_reg[2] = 91d6fd3689926570
+# state_reg[3] = 9971f4661e1f9b88
+# state_reg[4] = 4b01259b9a7d804e
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 46a07af94f947f9a
+# state_reg[1] = 18f0cb69828a3163
+# state_reg[2] = 7250d8411615407b
+# state_reg[3] = 3ef234ad7ea43618
+# state_reg[4] = 61051adcdca55786
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 20f02a0da322e770
+# state_reg[1] = 7a40217423b2350d
+# state_reg[2] = c9185afa6fecf769
+# state_reg[3] = 413fdd4c1ec5f4e9
+# state_reg[4] = d36a86ab608711ef
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = bd31459036b4f160
+# state_reg[1] = c791ae15d6a66952
+# state_reg[2] = b13de73362b7cec6
+# state_reg[3] = 9eadf3933b83f1d6
+# state_reg[4] = 8cd6e083143c9b1d
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = c8aadc562664c163
+# state_reg[1] = a1068fcd0cf38955
+# state_reg[2] = 923504786a2cda71
+# state_reg[3] = 4712479f7e487e71
+# state_reg[4] = 7d3faccb652e4a72
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = ca41ecdbcf043904
+# state_reg[1] = 970285ffb6938aca
+# state_reg[2] = f7ac6507f1cdebdb
+# state_reg[3] = d93b91f9e578aab0
+# state_reg[4] = 7de4f577da2d0787
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 06de61497c0f7005
+# state_reg[1] = ef093cc198d5e709
+# state_reg[2] = 04960965ca6e650b
+# state_reg[3] = e8412f1e2f9ecc0c
+# state_reg[4] = 6e37fe138f244c1a
+# ---------------------*****************-------------------------
+# TAG => ca636b5a
+# -----------------*****************--------------
+# TAG => 3e8f66a6
+# -----------------*****************--------------
+# TAG => 2a73ab46
+# -----------------*****************--------------
+# TAG => 259fa2e5
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = b6320386
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = e90456c1
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 60ae4bc5
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 58df8cf4
+# -----------------*****************--------------
+# *********(GET_DATA)--KEY***********
+# new_key_reg = 0000000000000000000000000000000000000000
+# run_key_reg = 00000000eeee11119d79b1a36622334488882345
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 2cce47ec
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 969387fa
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = ad26f537
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = e2de2e6f
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = d56ae251
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 7ccab096
+# -----------------*****************--------------
+# *********(GET_NONCE)***********
+# nonce_reg = 00000000000000000000000000000007
+# **************************************************
+# ------------------(Update State)------------------
+# --------------MODE: ASCON_128A--------------
+# -------------NEW ASCON FUNCTION START-------------
+# **************************************************
+# state_reg[0] = 80800c0800000000
+# state_reg[1] = eeee11119d79b1a3
+# state_reg[2] = 6622334488882345
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000007
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 902bd55b
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 80800c0800000000
+# state_reg[1] = eeee11119d79b1a3
+# state_reg[2] = 6622334488882345
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000007
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 371a4dcecd31a5bc
+# state_reg[1] = 0898e5243536ba71
+# state_reg[2] = 72ac9aa8c7fc0819
+# state_reg[3] = faaec7509300a513
+# state_reg[4] = c85d68c4e905d2a9
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 8ffcf9dc
+# -----------------*****************--------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = ad41a43133b7c0b5
+# state_reg[1] = 78e5061182e5cfa9
+# state_reg[2] = 79576f6fe8143410
+# state_reg[3] = ff2c681a12356005
+# state_reg[4] = c4c64332f0d8b2d6
+# ---------------------*****************-------------------------
+# *********(GET_DATA)--KEY***********
+# new_key_reg = 0000000000000000000000000000000000000000
+# run_key_reg = eeee11119d79b1a3662233448888234512359876
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => c
+# DATA_O = c3fde059
+# -----------------*****************--------------
+# *********(GET_NONCE)***********
+# nonce_reg = 00000000000000000000000000000006
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = c5ce7b8617cf3983
+# state_reg[1] = 458e4a4711d622f6
+# state_reg[2] = 3b255572526eee5c
+# state_reg[3] = a59f29f39da1a93c
+# state_reg[4] = 92c367ad2115257d
+# ---------------------*****************-------------------------
+# **************************************************
+# ------------------(Update State)------------------
+# --------------MODE: ASCON_80PQ--------------
+# -------------NEW ASCON FUNCTION START-------------
+# **************************************************
+# state_reg[0] = a0400c06eeee1111
+# state_reg[1] = 9d79b1a366223344
+# state_reg[2] = 8888234512359876
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000006
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = a0400c06eeee1111
+# state_reg[1] = 9d79b1a366223344
+# state_reg[2] = 8888234512359876
+# state_reg[3] = 0000000000000000
+# state_reg[4] = 0000000000000006
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 1207d3ec5330c5cb
+# state_reg[1] = 842cad5b7e272d32
+# state_reg[2] = 946aafc6a3d8e442
+# state_reg[3] = d27c515fa70a189b
+# state_reg[4] = 6a8e42007a915f65
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = c789082553ac7d0d
+# state_reg[1] = 86bef9c08e0ef27c
+# state_reg[2] = 7ba350f021e2e490
+# state_reg[3] = 92c84b08b43872c9
+# state_reg[4] = fe3ba3252e433bf1
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 95433988d2e6ce5c
+# state_reg[1] = 6cc32c41c10027ae
+# state_reg[2] = 74471465ba5018e0
+# state_reg[3] = de13cd49a5107c5b
+# state_reg[4] = 2cc8f9b0852c2a62
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 386410f8dad3bc2f
+# state_reg[1] = 3f4c0118edfe0bd2
+# state_reg[2] = 8ffe66b4d7c134c5
+# state_reg[3] = e72e62476d375bd4
+# state_reg[4] = af12e28b940f8d2a
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = c1283b004dc12876
+# state_reg[1] = 851b0a56f7545f27
+# state_reg[2] = 1082f7e06120847d
+# state_reg[3] = ae1c3ca41285c399
+# state_reg[4] = d5ead537cbf4142f
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = ae2abf3d5db3d492
+# state_reg[1] = 3a79e44bfcd46e4a
+# state_reg[2] = b60ce65eaf9d0e74
+# state_reg[3] = 99246441012fedfa
+# state_reg[4] = 9b286a7246bee1bf
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 2e1a40072d1972a1
+# state_reg[1] = 9f36c0d378dea7cf
+# state_reg[2] = 903380b41833ced5
+# state_reg[3] = 58639fcce4bd83a0
+# state_reg[4] = ef7eeff48364de8a
+# ---------------------*****************-------------------------
+# ---------(Update State)-AFTER INIT_ADD_KEY-------
+# state_reg[0] = c1283b004dc12876
+# state_reg[1] = 851b0a56f7545f27
+# state_reg[2] = 1082f7e06120847d
+# state_reg[3] = 40f22db58ffc723a
+# state_reg[4] = b3c8e673437c376b
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => c1283b004dc12876
+# selected_bd => 1111aaaabbbbcccc
+# xor_result => d03991aaf67ae4ba
+# (enc)new_state_o => d03991aaf67ae4ba
+# bd_o => de3d8e8d
+# ----------**********-----------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => 2e1a40072d1972a1
+# selected_bd => 11aaccdd12345678
+# new_state_o => 3fb08cda3f2d24d9
+# ----------**********-----------
+# ----------COMPUTE__TEXT----------
+# msb_state => 851b0a56f7545f27
+# selected_bd => 2345800000000000
+# xor_result => a65e8a56f7545f27
+# (enc)new_state_o => a65e8a56f7545f27
+# bd_o => de3d8e8d
+# ----------**********-----------
+# ---------(Update State) BEFORE FINAL PERMUTATION__AFTER ADD KEY ---------
+# state_reg[0] = d03991aaf67ae4ba
+# state_reg[1] = a65e8a56f7545f27
+# state_reg[2] = fe6ce6f1fc5935de
+# state_reg[3] = 26d01ef10774517f
+# state_reg[4] = b3c8e673437c376b
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 857355a7c1b3b4e6
+# state_reg[1] = 3ea9e07027f82417
+# state_reg[2] = f9f91870a7307e7c
+# state_reg[3] = 2de65e1ccee32c27
+# state_reg[4] = 875aa2f3801ee180
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = a43b07e191e1bd5e
+# state_reg[1] = 911f3b4f71782240
+# state_reg[2] = 1b2407aff4dd3c18
+# state_reg[3] = 2d507e707de7fbea
+# state_reg[4] = 66149139447b9229
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 8f012a2f0e1180ae
+# state_reg[1] = 5341023d6acc057b
+# state_reg[2] = 2dd3fd86f3a624d8
+# state_reg[3] = 8889c0445a7c4be3
+# state_reg[4] = d15ce997e977c61a
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => 8f012a2f0e1180ae
+# selected_bd => 87654321aabbccee
+# new_state_o => 0864690ea4aa4c40
+# ----------**********-----------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 6e6fdb2ea59c1f26
+# state_reg[1] = 2a4b84ea91f51ae6
+# state_reg[2] = 8a1ca858291f2f7d
+# state_reg[3] = daf8ef2ad0b15a3d
+# state_reg[4] = f454c38661631a8f
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = bf3774d04b67b5ee
+# state_reg[1] = 82302ddd6a77d704
+# state_reg[2] = 1b336dab9ab09e30
+# state_reg[3] = f801cb6fabfb3fe2
+# state_reg[4] = 83693665275e7fb1
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 2685d51fdce4ac38
+# state_reg[1] = 4ec6bf0aeab5dd5b
+# state_reg[2] = 9cfbfd4e2866e82d
+# state_reg[3] = bd64621daed834f0
+# state_reg[4] = 50477904b3bdab4d
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 6d8adfd73a7ad2a2
+# state_reg[1] = d97a0d1cf87fd460
+# state_reg[2] = fd4fdd819d35a154
+# state_reg[3] = 7bc9f583617a6895
+# state_reg[4] = 5bde4f226496919b
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = cec51aff822ddc52
+# state_reg[1] = a4de89d146f639b4
+# state_reg[2] = 122744cebe82fc75
+# state_reg[3] = b3db7c04599942b8
+# state_reg[4] = 36471d93dab24422
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => cec51aff822ddc52
+# selected_bd => dddd11112222aaaa
+# new_state_o => 13180beea00f76f8
+# ----------**********-----------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = 51b71c6316faba69
+# state_reg[1] = dd6d297b97390a81
+# state_reg[2] = bd8d82d4d7847716
+# state_reg[3] = 0cdc67248e4a20bc
+# state_reg[4] = bc12df269da8b166
+# ---------------------*****************-------------------------
+# ---------(Update State) 2 round of permutations finish-------
+# state_reg[0] = d034d2c0a8b8d5c1
+# state_reg[1] = 9ad84622ea2137f7
+# state_reg[2] = a095aa95a04159cb
+# state_reg[3] = 2431c118b85a1c13
+# state_reg[4] = a6f480127f061078
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f16eda3e8d108412
+# state_reg[1] = 63bf375d9afdb613
+# state_reg[2] = 78d9ce0ab13a153a
+# state_reg[3] = 59837b98b5567259
+# state_reg[4] = 1b6431e2beb70b29
+# ---------------------*****************-------------------------
+# TAG => cadfd009
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 631681c8c36c6e1a
+# state_reg[1] = 2a0cddd1c311e033
+# state_reg[2] = 91a932cd1b609ddd
+# state_reg[3] = 666562d84aece45e
+# state_reg[4] = 0417753c71a45ea3
+# ---------------------*****************-------------------------
+# ----------COMPUTE__AD----------
+# --------------AEAD---------------
+# msb_state => 631681c8c36c6e1a
+# selected_bd => 3344800000000000
+# new_state_o => 505201c8c36c6e1a
+# ----------**********-----------
+# TAG => 2523adb0
+# -----------------*****************--------------
+# TAG => c0d6b356
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 8e4b0647cc0837d5
+# state_reg[1] = 8ee2e4c4914a3a84
+# state_reg[2] = 514c6ddbce53f3ca
+# state_reg[3] = 4b1e0bcb3d7787e3
+# state_reg[4] = a8aaa132aeba2e02
+# ---------------------*****************-------------------------
+# TAG => f78e333d
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f97e8435edd4ec76
+# state_reg[1] = 7e4c7db097821c5f
+# state_reg[2] = 3fe9ffcbd06afd26
+# state_reg[3] = 202eb2fff11706fb
+# state_reg[4] = 78df80286b022cfe
+# ---------------------*****************-------------------------
+# ---------(Update State)-AFTER INIT_ADD_KEY-------
+# state_reg[0] = f97e8435edd4ec76
+# state_reg[1] = 7e4c7db097821c5f
+# state_reg[2] = 3fe9ffcbd06afd26
+# state_reg[3] = 202eb2fff11706fb
+# state_reg[4] = 78df80286b022cfe
+# ---------------------*****************-------------------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = d03991aa
+# -----------------*****************--------------
+# ---------(Update State)-AFTER INIT_ADD_KEY-------
+# state_reg[0] = f97e8435edd4ec76
+# state_reg[1] = 7e4c7db097821c5f
+# state_reg[2] = 3fe9ffcbd06afd26
+# state_reg[3] = 202eb2fff11706fb
+# state_reg[4] = 78df80286b022cff
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => f97e8435edd4ec76
+# selected_bd => b65763d3a38824bb
+# xor_result => 4f29e7e64e5cc8cd
+# (enc)new_state_o => 4f29e7e64e5cc8cd
+# bd_o => c3fde059
+# ----------**********-----------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = f67ae4ba
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => c
+# DATA_O = a65e8a56
+# -----------------*****************--------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 9fb960cf66fd154a
+# state_reg[1] = c99766335c9b73e7
+# state_reg[2] = 13ebaadde788068c
+# state_reg[3] = afec2366f256b17a
+# state_reg[4] = dbf3c7ccc663c513
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 824019f16856fc6c
+# state_reg[1] = fb432764392ceffd
+# state_reg[2] = a476a587852c5301
+# state_reg[3] = 22231039453f1300
+# state_reg[4] = 52329dd6c8d808b1
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => 824019f16856fc6c
+# selected_bd => 6aac9780aabbddcc
+# xor_result => e8ec8e71c2ed21a0
+# (enc)new_state_o => e8ec8e71c2ed21a0
+# bd_o => c3fde059
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 749d6a46b5e182c2
+# state_reg[1] = 2771b038f99e2df0
+# state_reg[2] = c37a7b678fa650b2
+# state_reg[3] = 2bd79ef4ed247d9c
+# state_reg[4] = a610288d54bdfcd0
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = b474611e7f8d294f
+# state_reg[1] = 16de415321ad62bc
+# state_reg[2] = 90711e2f0d9b9273
+# state_reg[3] = 35e8bd9433f90823
+# state_reg[4] = 131b37d625c95b97
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => b474611e7f8d294f
+# selected_bd => b65763d3a38824bb
+# xor_result => 022302cddc050df4
+# (enc)new_state_o => 022302cddc050df4
+# bd_o => c3fde059
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 00e0382170430e90
+# state_reg[1] = 70cf25f5fe2f7078
+# state_reg[2] = 223a682b622c7e0a
+# state_reg[3] = 3627abe5f1c7b1a1
+# state_reg[4] = 36c9dcfa1f8e76af
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 58d877d08648ffeb
+# state_reg[1] = eec92c42bf27d433
+# state_reg[2] = a22a69cb1264a018
+# state_reg[3] = 5f14926a691969d2
+# state_reg[4] = 034ff51d5c12a876
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => 58d877d08648ffeb
+# selected_bd => 6aac97804fcf816f
+# xor_result => 3274e050c9877e84
+# (enc)new_state_o => 3274e050c9877e84
+# bd_o => c3fde059
+# ----------**********-----------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = f3fd27914377fa70
+# state_reg[1] = d9f746a039919805
+# state_reg[2] = 445cb793fe29ad26
+# state_reg[3] = 7bfcfad4014633e8
+# state_reg[4] = e157527e8631bbdb
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 3ce4f2f9734e705f
+# state_reg[1] = fa9499580e1c72ff
+# state_reg[2] = 7c7375467de49493
+# state_reg[3] = 02c5d666aa78c13e
+# state_reg[4] = 40a64590e12ec64a
+# ---------------------*****************-------------------------
+# ---------(Update State) BEFORE FINAL PERMUTATION__AFTER ADD KEY ---------
+# state_reg[0] = 3ce4f2f9734e705f
+# state_reg[1] = fa9499580e1c72ff
+# state_reg[2] = 7c7375467de49493
+# state_reg[3] = 02c5d666aa78c13e
+# state_reg[4] = 40a64590e12ec64a
+# ---------------------*****************-------------------------
+# ----------COMPUTE__TEXT----------
+# msb_state => 3ce4f2f9734e705f
+# selected_bd => a38824bb6aac8000
+# xor_result => 9f6cd64219e2f05f
+# (enc)new_state_o => 9f6cd64219e2f05f
+# bd_o => c3fde059
+# ----------**********-----------
+# ---------(Update State) BEFORE FINAL PERMUTATION__AFTER ADD KEY ---------
+# state_reg[0] = 9f6cd64219e2f05f
+# state_reg[1] = 147a88499365c35c
+# state_reg[2] = 1a514602f56cb7d6
+# state_reg[3] = 10f04e10aa78c13e
+# state_reg[4] = 40a64590e12ec64a
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 61711271c3bc85c1
+# state_reg[1] = 7b095eb22b46e13c
+# state_reg[2] = 5facaaedb5791979
+# state_reg[3] = 5abe85ac387d9545
+# state_reg[4] = e4acafce10b4f260
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = de5e68fdacd380ce
+# state_reg[1] = 36645b7a112cad30
+# state_reg[2] = 87c66fe9a38f051d
+# state_reg[3] = bf19f08bc28c7103
+# state_reg[4] = aa61c768d765fcdf
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 0aacc1856ff0b3b3
+# state_reg[1] = 45fa66dad89031dd
+# state_reg[2] = 951309581d6c6a5e
+# state_reg[3] = 227f9fe07b9ab4f9
+# state_reg[4] = fff44b16248489d3
+# ---------------------*****************-------------------------
+# ---------(Update State) 3 round of permutations finish-------
+# state_reg[0] = 377e35b259292452
+# state_reg[1] = 78739a6bfc935cad
+# state_reg[2] = 4f52a0f9b8702ab3
+# state_reg[3] = 48fa284d2f47b23b
+# state_reg[4] = 84b29358c669b740
+# ---------------------*****************-------------------------
+# TAG => d58399ee
+# -----------------*****************--------------
+# TAG => 4965817f
+# -----------------*****************--------------
+# TAG => 0c3ab01d
+# -----------------*****************--------------
+# TAG => d45c2f36
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 4f29e7e6
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 4e5cc8cd
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = e8ec8e71
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = c2ed21a0
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 022302cd
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = dc050df4
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 3274e050
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = c9877e84
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => f
+# DATA_O = 9f6cd642
+# -----------------*****************--------------
+# BDO_TYPE => D_TEXT
+# VLD_BYTES => c
+# DATA_O = 19e2f05f
+# -----------------*****************--------------
+# DMA_ASCON[MEM1->MEM2] DONE!!!__in_out: 127(words)__tag_unmatches: 0(cases)
+# Break key hit
+# Break in Module altsyncram_body in file /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# End time: 18:04:31 on Jul 12,2025, Elapsed time: 0:46:55
+# Errors: 0, Warnings: 139

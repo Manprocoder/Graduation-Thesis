@@ -1,0 +1,34 @@
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 09:43:03 on Jul 14,2025
+vlog -reportprogress 300 -work work ../RTL/COMMON/config.sv ../RTL/COMMON/RiSiEdgeDetector.sv ../RTL/ASCON_CORE/function.sv ../RTL/ASCON_CORE/ascon_core.sv ../RTL/ASCON_CORE/sc_fifo.sv ../RTL/ASCON_CORE/fsm_control.sv ../RTL/ASCON_CORE/counter.sv ../RTL/ASCON_CORE/update_state.sv ../RTL/ASCON_CORE/compare.sv ../RTL/ASCON_CORE/flag.sv ../RTL/ASCON_CORE/permutation.sv ../RTL/ASCON_CORE/get_data.sv ../RTL/ASCON_CORE/get_config.sv ../RTL/ASCON_CORE/get_key_nonce.sv ../RTL/ASCON_CORE/get_ad_text.sv ../RTL/ASCON_CORE/get_tag.sv ../RTL/ASCON_CORE/handle_data.sv ../RTL/ASCON_CORE/store_data.sv tb.sv -timescale 1ns/1ns -l vlog.log "+cover" 
+-- Compiling package ascon_cfg
+-- Compiling package dma_cfg
+-- Compiling module RiSiEdgeDetector
+-- Compiling package func
+-- Compiling module ascon_core
+-- Importing package ascon_cfg
+-- Compiling module sc_fifo
+-- Compiling module fsm_control
+-- Compiling module counter
+-- Compiling module update_state
+-- Compiling module compare
+-- Compiling module flag
+-- Compiling module permutation
+-- Compiling module get_data
+-- Compiling module get_config
+-- Importing package func
+-- Compiling module get_key_nonce
+-- Compiling module get_ad_text
+-- Compiling module get_tag
+-- Compiling module handle_data
+** Note: (vlog-143) Recognized 1 FSM in module "handle_data(verilog)".
+-- Compiling module store_data
+-- Compiling package tb_sv_unit
+-- Importing package ascon_cfg
+-- Compiling module falling_edge_detect
+-- Compiling module tb
+
+Top level modules:
+	tb
+End time: 09:43:04 on Jul 14,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

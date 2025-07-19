@@ -1,0 +1,140 @@
+*****************************ASCON_128********************************
+*****************************ATTEMPT 1*******************************
+At 670000(ns) MATCHES------IP_TAG = edb5bce1 vs Expected_TAG = edb5bce1
+At 690000(ns) MATCHES------IP_TAG = 19463a70 vs Expected_TAG = 19463a70
+At 710000(ns) MATCHES------IP_TAG = 6000184a vs Expected_TAG = 6000184a
+At 730000(ns) MATCHES------IP_TAG = 3eef5115 vs Expected_TAG = 3eef5115
+At 750000(ns) MATCHES-----IP_TEXT = b9da0fae vs Expected_TEXT = b9da0fae
+At 770000(ns) MATCHES-----IP_TEXT = 57dde800 vs Expected_TEXT = 57dde800
+*****************************ASCON_HASH*******************************
+*****************************ATTEMPT 2*******************************
+At 1290000(ns) MATCHES------IP_HASH = 11d30c75 vs Expected_HASH = 11d30c75
+At 1310000(ns) MATCHES------IP_HASH = de217f56 vs Expected_HASH = de217f56
+At 1330000(ns) MATCHES------IP_HASH = be51a58e vs Expected_HASH = be51a58e
+At 1350000(ns) MATCHES------IP_HASH = 2cbf60f1 vs Expected_HASH = 2cbf60f1
+At 1370000(ns) MATCHES------IP_HASH = 19376fbc vs Expected_HASH = 19376fbc
+At 1390000(ns) MATCHES------IP_HASH = a38be581 vs Expected_HASH = a38be581
+At 1410000(ns) MATCHES------IP_HASH = cfd0058d vs Expected_HASH = cfd0058d
+At 1430000(ns) MATCHES------IP_HASH = 98084e02 vs Expected_HASH = 98084e02
+*****************************ASCON_128********************************
+*****************************ATTEMPT 3*******************************
+At 1790000(ns) MATCHES-----IP_TEXT = aabbcc00 vs Expected_TEXT = aabbcc00
+******************************ASCON_XOF*******************************
+*****************************ATTEMPT 4*******************************
+At 3450000(ns) MATCHES------IP_HASH = 145cee06 vs Expected_HASH = 145cee06
+At 3470000(ns) MATCHES------IP_HASH = b7cf3c72 vs Expected_HASH = b7cf3c72
+At 3490000(ns) MATCHES------IP_HASH = 1c64d36c vs Expected_HASH = 1c64d36c
+At 3510000(ns) MATCHES------IP_HASH = ca51f2bc vs Expected_HASH = ca51f2bc
+At 3530000(ns) MATCHES------IP_HASH = 18cf7a1f vs Expected_HASH = 18cf7a1f
+At 3550000(ns) MATCHES------IP_HASH = 2d437cd5 vs Expected_HASH = 2d437cd5
+At 3570000(ns) MATCHES------IP_HASH = 40e90dc0 vs Expected_HASH = 40e90dc0
+At 3590000(ns) MATCHES------IP_HASH = 5359e494 vs Expected_HASH = 5359e494
+At 3610000(ns) MATCHES------IP_HASH = b7413214 vs Expected_HASH = b7413214
+At 3630000(ns) MATCHES------IP_HASH = f272c779 vs Expected_HASH = f272c779
+At 3650000(ns) MATCHES------IP_HASH = eead01ac vs Expected_HASH = eead01ac
+At 3670000(ns) MATCHES------IP_HASH = b4e84ec8 vs Expected_HASH = b4e84ec8
+At 3690000(ns) MATCHES------IP_HASH = 5845f5f0 vs Expected_HASH = 5845f5f0
+At 3710000(ns) MATCHES------IP_HASH = 2583068c vs Expected_HASH = 2583068c
+At 3730000(ns) MATCHES------IP_HASH = d06e825a vs Expected_HASH = d06e825a
+At 3750000(ns) MATCHES------IP_HASH = 4f47e428 vs Expected_HASH = 4f47e428
+*****************************ASCON_128A*******************************
+*****************************ATTEMPT 5*******************************
+At 4710000(ns) MATCHES------IP_TAG = ca636b5a vs Expected_TAG = ca636b5a
+At 4730000(ns) MATCHES------IP_TAG = 3e8f66a6 vs Expected_TAG = 3e8f66a6
+At 4750000(ns) MATCHES------IP_TAG = 2a73ab46 vs Expected_TAG = 2a73ab46
+At 4770000(ns) MATCHES------IP_TAG = 259fa2e5 vs Expected_TAG = 259fa2e5
+At 4790000(ns) MATCHES-----IP_TEXT = b6320386 vs Expected_TEXT = b6320386
+At 4810000(ns) MATCHES-----IP_TEXT = e90456c1 vs Expected_TEXT = e90456c1
+At 4830000(ns) MATCHES-----IP_TEXT = 60ae4bc5 vs Expected_TEXT = 60ae4bc5
+At 4850000(ns) MATCHES-----IP_TEXT = 58df8cf4 vs Expected_TEXT = 58df8cf4
+At 4870000(ns) MATCHES-----IP_TEXT = 2cce47ec vs Expected_TEXT = 2cce47ec
+At 4890000(ns) MATCHES-----IP_TEXT = 969387fa vs Expected_TEXT = 969387fa
+At 4910000(ns) MATCHES-----IP_TEXT = ad26f537 vs Expected_TEXT = ad26f537
+At 4930000(ns) MATCHES-----IP_TEXT = e2de2e6f vs Expected_TEXT = e2de2e6f
+At 4950000(ns) MATCHES-----IP_TEXT = d56ae251 vs Expected_TEXT = d56ae251
+At 4970000(ns) MATCHES-----IP_TEXT = 7ccab096 vs Expected_TEXT = 7ccab096
+At 4990000(ns) MATCHES-----IP_TEXT = 902bd55b vs Expected_TEXT = 902bd55b
+At 5010000(ns) MATCHES-----IP_TEXT = 8ffcf9dc vs Expected_TEXT = 8ffcf9dc
+At 5030000(ns) MATCHES-----IP_TEXT = c3fd0000 vs Expected_TEXT = c3fd0000
+*****************************ASCON_80PQ*******************************
+*****************************ATTEMPT 6*******************************
+At 5350000(ns) MATCHES------IP_TAG = 0db2bfe4 vs Expected_TAG = 0db2bfe4
+At 5370000(ns) MATCHES------IP_TAG = b71fc8a5 vs Expected_TAG = b71fc8a5
+At 5390000(ns) MATCHES------IP_TAG = 6709216b vs Expected_TAG = 6709216b
+At 5410000(ns) MATCHES------IP_TAG = 82efc37e vs Expected_TAG = 82efc37e
+At 5430000(ns) MATCHES-----IP_TEXT = 593a507e vs Expected_TEXT = 593a507e
+At 5450000(ns) MATCHES-----IP_TEXT = aed4fe00 vs Expected_TEXT = aed4fe00
+*****************************ASCON_128********************************
+*****************************ATTEMPT 7*******************************
+At 6210000(ns) MATCHES------IP_TAG = 3b1e60db vs Expected_TAG = 3b1e60db
+At 6230000(ns) MATCHES------IP_TAG = ffc3dda9 vs Expected_TAG = ffc3dda9
+At 6250000(ns) MATCHES------IP_TAG = 2179a2bb vs Expected_TAG = 2179a2bb
+At 6270000(ns) MATCHES------IP_TAG = 951d3c4b vs Expected_TAG = 951d3c4b
+At 6290000(ns) MATCHES-----IP_TEXT = 20339eff vs Expected_TEXT = 20339eff
+At 6310000(ns) MATCHES-----IP_TEXT = 1a012060 vs Expected_TEXT = 1a012060
+At 6330000(ns) MATCHES-----IP_TEXT = a4baf56a vs Expected_TEXT = a4baf56a
+At 6350000(ns) MATCHES-----IP_TEXT = 31216e85 vs Expected_TEXT = 31216e85
+At 6370000(ns) MATCHES-----IP_TEXT = 544d9132 vs Expected_TEXT = 544d9132
+At 6390000(ns) MATCHES-----IP_TEXT = d420c9cb vs Expected_TEXT = d420c9cb
+At 6410000(ns) MATCHES-----IP_TEXT = caf719dd vs Expected_TEXT = caf719dd
+At 6430000(ns) MATCHES-----IP_TEXT = 612fd925 vs Expected_TEXT = 612fd925
+At 6450000(ns) MATCHES-----IP_TEXT = ee0b7bf8 vs Expected_TEXT = ee0b7bf8
+At 6470000(ns) MATCHES-----IP_TEXT = a33d5052 vs Expected_TEXT = a33d5052
+At 6490000(ns) MATCHES-----IP_TEXT = 0ba1ae41 vs Expected_TEXT = 0ba1ae41
+At 6510000(ns) MATCHES-----IP_TEXT = 9e66e60f vs Expected_TEXT = 9e66e60f
+At 6530000(ns) MATCHES-----IP_TEXT = c69a5a6c vs Expected_TEXT = c69a5a6c
+At 6550000(ns) MATCHES-----IP_TEXT = 70c479ae vs Expected_TEXT = 70c479ae
+At 6570000(ns) MATCHES-----IP_TEXT = 3c4d42d0 vs Expected_TEXT = 3c4d42d0
+At 6590000(ns) MATCHES-----IP_TEXT = 36ce9510 vs Expected_TEXT = 36ce9510
+*****************************ASCON_80PQ*******************************
+*****************************ATTEMPT 8*******************************
+At 6970000(ns) MATCHES------IP_TAG = a389972a vs Expected_TAG = a389972a
+At 6990000(ns) MATCHES------IP_TAG = 7b7e3bcb vs Expected_TAG = 7b7e3bcb
+At 7010000(ns) MATCHES------IP_TAG = a8b30e3c vs Expected_TAG = a8b30e3c
+At 7030000(ns) MATCHES------IP_TAG = b5832e66 vs Expected_TAG = b5832e66
+At 7050000(ns) MATCHES-----IP_TEXT = 0025caff vs Expected_TEXT = 0025caff
+******************************ASCON_XOF*******************************
+*****************************ATTEMPT 9*******************************
+At 8070000(ns) MATCHES------IP_HASH = c050f7a6 vs Expected_HASH = c050f7a6
+At 8090000(ns) MATCHES------IP_HASH = e6594411 vs Expected_HASH = e6594411
+At 8110000(ns) MATCHES------IP_HASH = d096a2fe vs Expected_HASH = d096a2fe
+At 8130000(ns) MATCHES------IP_HASH = 52b5a57a vs Expected_HASH = 52b5a57a
+At 8150000(ns) MATCHES------IP_HASH = 38dd3e83 vs Expected_HASH = 38dd3e83
+At 8170000(ns) MATCHES------IP_HASH = c47d1387 vs Expected_HASH = c47d1387
+At 8190000(ns) MATCHES------IP_HASH = b726b7de vs Expected_HASH = b726b7de
+At 8210000(ns) MATCHES------IP_HASH = 8391d8bd vs Expected_HASH = 8391d8bd
+At 8230000(ns) MATCHES------IP_HASH = e41ded87 vs Expected_HASH = e41ded87
+At 8250000(ns) MATCHES------IP_HASH = bebba3f4 vs Expected_HASH = bebba3f4
+At 8270000(ns) MATCHES------IP_HASH = 1788a3f4 vs Expected_HASH = 1788a3f4
+At 8290000(ns) MATCHES------IP_HASH = de3d8e8d vs Expected_HASH = de3d8e8d
+*****************************ASCON_80PQ*******************************
+*****************************ATTEMPT 10*******************************
+At 9030000(ns) MATCHES------IP_TAG = d58399ee vs Expected_TAG = d58399ee
+At 9050000(ns) MATCHES------IP_TAG = 4965817f vs Expected_TAG = 4965817f
+At 9070000(ns) MATCHES------IP_TAG = 0c3ab01d vs Expected_TAG = 0c3ab01d
+At 9090000(ns) MATCHES------IP_TAG = d45c2f36 vs Expected_TAG = d45c2f36
+At 9110000(ns) MATCHES-----IP_TEXT = 4f29e7e6 vs Expected_TEXT = 4f29e7e6
+At 9130000(ns) MATCHES-----IP_TEXT = 4e5cc8cd vs Expected_TEXT = 4e5cc8cd
+At 9150000(ns) MATCHES-----IP_TEXT = e8ec8e71 vs Expected_TEXT = e8ec8e71
+At 9170000(ns) MATCHES-----IP_TEXT = c2ed21a0 vs Expected_TEXT = c2ed21a0
+At 9190000(ns) MATCHES-----IP_TEXT = 022302cd vs Expected_TEXT = 022302cd
+At 9210000(ns) MATCHES-----IP_TEXT = dc050df4 vs Expected_TEXT = dc050df4
+At 9230000(ns) MATCHES-----IP_TEXT = 3274e050 vs Expected_TEXT = 3274e050
+At 9250000(ns) MATCHES-----IP_TEXT = c9877e84 vs Expected_TEXT = c9877e84
+At 9270000(ns) MATCHES-----IP_TEXT = 9f6cd642 vs Expected_TEXT = 9f6cd642
+At 9290000(ns) MATCHES-----IP_TEXT = 19e20000 vs Expected_TEXT = 19e20000
+*****************************ASCON_128A*******************************
+*****************************ATTEMPT 11*******************************
+At 9650000(ns) MATCHES------IP_TAG = cadfd009 vs Expected_TAG = cadfd009
+At 9670000(ns) MATCHES------IP_TAG = 2523adb0 vs Expected_TAG = 2523adb0
+At 9690000(ns) MATCHES------IP_TAG = c0d6b356 vs Expected_TAG = c0d6b356
+At 9710000(ns) MATCHES------IP_TAG = f78e333d vs Expected_TAG = f78e333d
+At 9730000(ns) MATCHES-----IP_TEXT = d03991aa vs Expected_TEXT = d03991aa
+At 9750000(ns) MATCHES-----IP_TEXT = f67ae4ba vs Expected_TEXT = f67ae4ba
+At 9770000(ns) MATCHES-----IP_TEXT = a65e0000 vs Expected_TEXT = a65e0000
+*****************************ASCON_128A*******************************
+*****************************ATTEMPT 12*******************************
+At 10290000(ns) MATCHES-----IP_TEXT = 1111aaaa vs Expected_TEXT = 1111aaaa
+At 10310000(ns) MATCHES-----IP_TEXT = bbbbcccc vs Expected_TEXT = bbbbcccc
+At 10330000(ns) MATCHES-----IP_TEXT = 23450011 vs Expected_TEXT = 23450011
+At 10350000(ns) MATCHES-----IP_TEXT = 2267ae00 vs Expected_TEXT = 2267ae00

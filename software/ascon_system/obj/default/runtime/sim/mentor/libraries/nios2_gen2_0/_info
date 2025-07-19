@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ASCON_SYSTEM/software/ascon_system/obj/default/runtime/sim/mentor
+vsystem_nios2_gen2_0
+!s110 1752315448
+!i10b 1
+!s100 F:7Ql27c9k[h4`h0D91kZ2
+IA:PQ4NT4V>cCcDZFJ;CD@1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1752217295
+8C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0.v
+FC:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0.v
+L0 9
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1752315448.000000
+!s107 C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0.v|
+!s90 -reportprogress|300|C:/ASCON_SYSTEM/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0.v|-work|nios2_gen2_0|
+!i113 1
+o-work nios2_gen2_0
+tCvgOpt 0

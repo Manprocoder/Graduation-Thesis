@@ -1,0 +1,102 @@
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|ascon_top:ascon_core|ascon_core:dut_1|fsm_control:u0|handle_data:c1|cs
+Name cs.GEN_TEXT cs.GEN_TAG cs.AUTH_TAG cs.DO_TAG cs.FINAL_PER cs.TEXT_PER cs.AD_PER cs.ABS_TEXT cs.SEP_DOM cs.SQZ_HASH cs.ABS_AD cs.INIT_DOM cs.INIT_PER cs.IDLE 
+cs.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+cs.INIT_PER 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+cs.INIT_DOM 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+cs.ABS_AD 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+cs.SQZ_HASH 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+cs.SEP_DOM 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+cs.ABS_TEXT 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+cs.AD_PER 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+cs.TEXT_PER 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+cs.FINAL_PER 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+cs.DO_TAG 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+cs.AUTH_TAG 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+cs.GEN_TAG 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+cs.GEN_TEXT 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|ascon_top:ascon_core|ascon_core:dut_0|fsm_control:u0|handle_data:c1|cs
+Name cs.GEN_TEXT cs.GEN_TAG cs.AUTH_TAG cs.DO_TAG cs.FINAL_PER cs.TEXT_PER cs.AD_PER cs.ABS_TEXT cs.SEP_DOM cs.SQZ_HASH cs.ABS_AD cs.INIT_DOM cs.INIT_PER cs.IDLE 
+cs.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+cs.INIT_PER 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+cs.INIT_DOM 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+cs.ABS_AD 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+cs.SQZ_HASH 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+cs.SEP_DOM 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+cs.ABS_TEXT 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+cs.AD_PER 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+cs.TEXT_PER 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+cs.FINAL_PER 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+cs.DO_TAG 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+cs.AUTH_TAG 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+cs.GEN_TAG 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+cs.GEN_TEXT 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|DMA_Core:dmac_core|control_unit:ctrl_unit|wr_handle:wr_hdl|wr_request:wr_req|wr_cs
+Name wr_cs.W_REQ wr_cs.TAG_FIFO_RD wr_cs.TEXT_FIFO_RD wr_cs.RES_ARBITER wr_cs.RES_REQ_FIFO_RD wr_cs.W_INFO_FIFO_RD wr_cs.CKN_AD_FIFO_RD wr_cs.W_IDLE wr_cs.W_INCR 
+wr_cs.W_IDLE 0 0 0 0 0 0 0 0 0 
+wr_cs.CKN_AD_FIFO_RD 0 0 0 0 0 0 1 1 0 
+wr_cs.W_INFO_FIFO_RD 0 0 0 0 0 1 0 1 0 
+wr_cs.RES_REQ_FIFO_RD 0 0 0 0 1 0 0 1 0 
+wr_cs.RES_ARBITER 0 0 0 1 0 0 0 1 0 
+wr_cs.TEXT_FIFO_RD 0 0 1 0 0 0 0 1 0 
+wr_cs.TAG_FIFO_RD 0 1 0 0 0 0 0 1 0 
+wr_cs.W_REQ 1 0 0 0 0 0 0 1 0 
+wr_cs.W_INCR 0 0 0 0 0 0 0 1 1 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|DMA_Core:dmac_core|control_unit:ctrl_unit|dynamic_config:dyn_cfg|format_data:fmt_data|dma_to_sub:dma_to_sub|k_cs
+Name k_cs.KEY_IDLE k_cs.KEY_PASS k_cs.KEY_FIFO_RD 
+k_cs.KEY_IDLE 0 0 0 
+k_cs.KEY_FIFO_RD 1 0 1 
+k_cs.KEY_PASS 1 1 0 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|DMA_Core:dmac_core|control_unit:ctrl_unit|rd_request:rd_req|rreq_cs
+Name rreq_cs.R_IDLE rreq_cs.R_INCR rreq_cs.R_REQ 
+rreq_cs.R_IDLE 0 0 0 
+rreq_cs.R_REQ 1 0 1 
+rreq_cs.R_INCR 1 1 0 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|ascon_top:ascon_core|out_cs
+Name out_cs.FIFO_RD out_cs.DUT1_OUT out_cs.DUT0_OUT 
+out_cs.FIFO_RD 0 0 0 
+out_cs.DUT0_OUT 1 0 1 
+out_cs.DUT1_OUT 1 1 0 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|ascon_top:ascon_core|in_cs
+Name in_cs.DUT1_IN 
+in_cs.DUT0_IN 0 
+in_cs.DUT1_IN 1 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|DMA_Core:dmac_core|control_unit:ctrl_unit|dynamic_config:dyn_cfg|format_data:fmt_data|fmt_cs
+Name fmt_cs.FORMAT_TAG fmt_cs.FORMAT_TEXT fmt_cs.FORMAT_AD fmt_cs.FORMAT_N fmt_cs.FORMAT_K fmt_cs.FORMAT_CFG fmt_cs.FORMAT_IDLE 
+fmt_cs.FORMAT_IDLE 0 0 0 0 0 0 0 
+fmt_cs.FORMAT_CFG 0 0 0 0 0 1 1 
+fmt_cs.FORMAT_K 0 0 0 0 1 0 1 
+fmt_cs.FORMAT_N 0 0 0 1 0 0 1 
+fmt_cs.FORMAT_AD 0 0 1 0 0 0 1 
+fmt_cs.FORMAT_TEXT 0 1 0 0 0 0 1 
+fmt_cs.FORMAT_TAG 1 0 0 0 0 0 1 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|DMA_Core:dmac_core|control_unit:ctrl_unit|dynamic_config:dyn_cfg|format_data:fmt_data|dma_to_sub:dma_to_sub|bdi_cs
+Name bdi_cs.BDI_EOI bdi_cs.BDI_PASS bdi_cs.BDI_FIFO_RD bdi_cs.BDI_IDLE 
+bdi_cs.BDI_IDLE 0 0 0 0 
+bdi_cs.BDI_FIFO_RD 0 0 1 1 
+bdi_cs.BDI_PASS 0 1 0 1 
+bdi_cs.BDI_EOI 1 0 0 1 
+
+State Machine - |ascon_system|system:u_system|active_ascon:active_ascon_0|DMA_Core:dmac_core|control_unit:ctrl_unit|dynamic_config:dyn_cfg|store_ckn_ad:store_cknad|ckn_cs
+Name ckn_cs.IN_PAUSE ckn_cs.GET_CKN_AD ckn_cs.DMA_CFG ckn_cs.IN_IDLE 
+ckn_cs.IN_IDLE 0 0 0 0 
+ckn_cs.DMA_CFG 0 0 1 1 
+ckn_cs.GET_CKN_AD 0 1 0 1 
+ckn_cs.IN_PAUSE 1 0 0 1 
+
+State Machine - |ascon_system|system:u_system|system_nios2_gen2_0:nios2_gen2_0|system_nios2_gen2_0_cpu:cpu|system_nios2_gen2_0_cpu_nios2_oci:the_system_nios2_gen2_0_cpu_nios2_oci|system_nios2_gen2_0_cpu_debug_slave_wrapper:the_system_nios2_gen2_0_cpu_debug_slave_wrapper|system_nios2_gen2_0_cpu_debug_slave_tck:the_system_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

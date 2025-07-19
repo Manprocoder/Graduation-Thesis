@@ -1,0 +1,99 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 19:14:22  July 03, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ascon_system_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY ascon_system
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:14:22  JULY 03, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name QSYS_FILE system.qsys
+set_global_assignment -name VERILOG_FILE RTL/ASCON_CASE/instance_fifo.v
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CASE/ascon_top4.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CASE/ascon_top3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CASE/ascon_top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/update_state.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/store_data.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/sc_fifo.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/permutation.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/handle_data.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/get_tag.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/get_key_nonce.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/get_data.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/get_config.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/get_ad_text.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/function.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/fsm_control.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/flag.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/counter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/compare.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/ASCON_CORE/ascon_core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/COMMON/RiSiEdgeDetector.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/COMMON/config.sv
+set_global_assignment -name VERILOG_FILE RTL/DMAC/pll_clk/pll_clk_0002.v
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/wr_request.sv
+set_global_assignment -name VERILOG_FILE RTL/DMAC/wr_info_fifo.v
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/wr_handle.sv
+set_global_assignment -name VERILOG_FILE RTL/DMAC/text_fifo.v
+set_global_assignment -name VERILOG_FILE RTL/DMAC/tag_fifo.v
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/sub_to_dma.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/store_ckn_ad.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/rstn_synchronizer.sv
+set_global_assignment -name VERILOG_FILE RTL/DMAC/res_req_fifo.v
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/rd_request.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/rd_crf.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/pulse_synchronizer.sv
+set_global_assignment -name VERILOG_FILE RTL/DMAC/pll_clk.v
+set_global_assignment -name VERILOG_FILE RTL/DMAC/key_fifo.v
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/host_register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/format_data.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/dynamic_config.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/dma_to_sub.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/DMA_Core.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/control_unit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/DMAC/clk_divider.sv
+set_global_assignment -name VERILOG_FILE RTL/DMAC/ckn_ad_fifo.v
+set_global_assignment -name VERILOG_FILE RTL/DMAC/bdi_fifo.v
+set_global_assignment -name VERILOG_FILE ascon_system.v
+set_global_assignment -name SYSTEMVERILOG_FILE RTL/TOP_LEVEL/active_ascon.sv
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
